@@ -1,0 +1,228 @@
+{
+  "source": "C:\\Users\\Administrator\\Desktop\\Projeto Codex\\KOF ALLSTAR Local\\KOF ALLSTAR Local",
+  "compared_files": 17936,
+  "changed_files": [
+    {
+      "path": "outputs/KOFAS-Local-Server/attendance_debug.jsonl",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/KOFAS-Local-Server/game.pid",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/KOFAS-Local-Server/growth-requests.jsonl",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/KOFAS-Local-Server/guild_debug.jsonl",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/KOFAS-Local-Server/launcher-session.json",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/KOFAS-Local-Server/lobby-tcp.log",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/KOFAS-Local-Server/mods-output.log",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/KOFAS-Local-Server/player.json",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/KOFAS-Local-Server/requests.jsonl",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/KOFAS-Local-Server/server-output.log",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/KOFAS-Local-Server/server.pid",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/KOFAS-Local-Server/shop_debug.jsonl",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Local State",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Variations",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Crashpad/settings.dat",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/DIPS",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/favorites_diagnostic.log",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/History",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Preferences",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Secure Preferences",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/settings_diagnostic.log",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/GrShaderCache/data_1",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/GrShaderCache/index",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/ShaderCache/data_1",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/ShaderCache/index",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/DawnGraphiteCache/data_1",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/DawnGraphiteCache/index",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/DawnWebGPUCache/data_1",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/DawnWebGPUCache/index",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/EdgeSessions/SessionRestoreLog",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Extension State/LOG",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Extension State/LOG.old",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/GPUCache/data_1",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/GPUCache/index",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Network/Network Persistent State",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Network/TransportSecurity",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Session Storage/LOG",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/shared_proto_db/000003.log",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/shared_proto_db/LOG",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/shared_proto_db/LOG.old",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Site Characteristics Database/000003.log",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Site Characteristics Database/LOG",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Site Characteristics Database/LOG.old",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Sync Data/LevelDB/LOG",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Sync Data/LevelDB/LOG.old",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/shared_proto_db/metadata/000003.log",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/shared_proto_db/metadata/LOG",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/shared_proto_db/metadata/LOG.old",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Local Storage/leveldb/000003.log",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Local Storage/leveldb/LOG",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Local Storage/leveldb/LOG.old",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Code Cache/js/index-dir/the-real-index",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Cache/Cache_Data/data_1",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/launcher-webview/EBWebView/Default/Cache/Cache_Data/index",
+      "reason": "hash changed"
+    },
+    {
+      "path": "outputs/KOFAS-PC-Test/storage/cache/kofallstar.prefs",
+      "reason": "hash changed"
+    }
+  ],
+  "new_files": [],
+  "original_unchanged": false
+}

@@ -1,5 +1,13 @@
 # Estado da migração em 2026-11-02
 
+## Correção de escopo solicitada pelo usuário
+
+O experimento abaixo fica suspenso. Ele combinou cliente/assets 1.17.0 com tabelas reconstruídas antigas e uma cópia de perfil 1.11.2. Isso não corresponde à atualização completa solicitada e não será usado como prova de viabilidade do conteúdo novo.
+
+O trabalho atual é uma análise estática das bases originais, com relatório comparando reparar a 1.17 e portar funções da nova para a 1.11. Não executar o roteiro de jogo abaixo nem continuar adaptações até o usuário escolher uma direção após a análise. A discussão anterior sobre testes manuais e correções de inicialização não amplia esse escopo.
+
+Relatório vigente: [comparação 1.11.2 × 1.17.0](assessment/COMPARATIVO-1.11-1.17.md). A seção de preservação distingue o backup congelado do estado mutável atual da instalação em uso.
+
 ## Referências locais
 
 A instalação da Área de Trabalho permaneceu inalterada durante a investigação. O backup completo e a cópia experimental estão em `../KOFAS-Migracao/` em relação a este checkout. Não copiar arquivos do repositório por cima da instalação funcional sem backup, análise de impacto e validação.
@@ -23,7 +31,7 @@ A instalação da Área de Trabalho permaneceu inalterada durante a investigaç�
 - Manter o manifesto completo de 8.213 entradas do cache. A tentativa de filtrá-lo foi revertida; o catálogo nativo tem 8.204 bundles e não descreve sozinho todas as entradas necessárias à inicialização.
 - Launcher gráfico e runtime experimental não estão integrados neste checkout. Portas do launcher original e do experimento precisam ser conciliadas antes de uma distribuição.
 
-## Roteiro para o usuário
+## Roteiro anterior — suspenso
 
 1. Encerrar outras sessões experimentais. Abrir o `.cmd` de início somente na cópia experimental completa.
 2. Aguardar a introdução e o fluxo normal de login; não avançar antes da autenticação e do carregamento das tabelas.

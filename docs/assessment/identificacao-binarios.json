@@ -1,0 +1,68 @@
+{
+  "working_1.11.2": {
+    "GameAssembly.dll": {
+      "bytes": 57354752,
+      "sha256": "f110ae6b45b384e0f074f9837762bc3062484b9271ad4d58e779615524f314cc"
+    },
+    "UnityPlayer.dll": {
+      "bytes": 23425992,
+      "sha256": "a68344f10f72c79c899c42a46bf7ac1b0a655151cf2eb3df8ba7e3e7a1ad26df"
+    },
+    "KOF ALLSTAR.exe": {
+      "bytes": 322456,
+      "sha256": "c17f6da087ce3891ced5d25b3762d816ac4a40b660539dc755faebad8af05c1f"
+    },
+    "KOF ALLSTAR_Data/globalgamemanagers": {
+      "bytes": 308480,
+      "sha256": "0e227c8606daaeb257afd12657452c8944d712c855d9857ff561619acef86ae6"
+    },
+    "KOF ALLSTAR_Data/il2cpp_data/Metadata/global-metadata.dat": {
+      "bytes": 19925640,
+      "sha256": "b4c780a89c032dd683a05bd3de794650cc23027268fb38691fac45998af713d7"
+    }
+  },
+  "original_1.11.2": {
+    "GameAssembly.dll": {
+      "bytes": 57354752,
+      "sha256": "f4c656941e3760278414b49bd34b59ad3c02fe1a117fde1c69159eb60c0730ba"
+    },
+    "UnityPlayer.dll": {
+      "bytes": 23425992,
+      "sha256": "a68344f10f72c79c899c42a46bf7ac1b0a655151cf2eb3df8ba7e3e7a1ad26df"
+    },
+    "KOF ALLSTAR.exe": {
+      "bytes": 322456,
+      "sha256": "c17f6da087ce3891ced5d25b3762d816ac4a40b660539dc755faebad8af05c1f"
+    },
+    "KOF ALLSTAR_Data/globalgamemanagers": {
+      "bytes": 308480,
+      "sha256": "3325d3fa9b140517126fd353acf285d747f339457da67f1ea9f79275abd67a9d"
+    },
+    "KOF ALLSTAR_Data/il2cpp_data/Metadata/global-metadata.dat": {
+      "bytes": 19925640,
+      "sha256": "d049f341dec2aba8d4fa8866a06153037b390db28a03d56fe45e6584f8f77d35"
+    }
+  },
+  "original_1.17.0": {
+    "GameAssembly.dll": {
+      "bytes": 66566144,
+      "sha256": "07beb870deee2a580d140041ad629e7149ed5a887d76323c36e63c9b532c03e2"
+    },
+    "UnityPlayer.dll": {
+      "bytes": 29049880,
+      "sha256": "8a5753e1b38f73a4c05a3dba053f8863db53d717798067f18e49cc8efe4b7cf1"
+    },
+    "KOF ALLSTAR.exe": {
+      "bytes": 331560,
+      "sha256": "7e8f813a6534acc418915c8bcb23e8391d63809904ec7108fc47df22b01af5ce"
+    },
+    "KOF ALLSTAR_Data/globalgamemanagers": {
+      "bytes": 344664,
+      "sha256": "18e3f632696e9e4c84fee6cd9fea82087047f98a5400ca51d7e535aa7a159ed7"
+    },
+    "KOF ALLSTAR_Data/il2cpp_data/Metadata/global-metadata.dat": {
+      "bytes": 17165224,
+      "sha256": "a93c48aeaa2f9761f24bb2b4ba39a58491948ad48fcabef919cdc9d721979046"
+    }
+  }
+}

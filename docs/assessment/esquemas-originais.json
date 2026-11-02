@@ -1,0 +1,1421 @@
+{
+  "scope": "Static declared field/type comparison from Il2CppDumper. Excludes addresses and offsets. Does NOT establish serializer field numbers, default semantics, live JSON mapping or gameplay compatibility. Secure wrappers and computed fields may also appear.",
+  "source_sha256": {
+    "old_dump": "0db44b7765790a525f8b26bb3e296a118e02e66a2ab8203cf157b03daf2fe60c",
+    "new_dump": "3c8fcceae40454bf9568ece7b5356b1b15aed2bf69ef2a2120accfede4815e95"
+  },
+  "tables": {
+    "old_classes": 431,
+    "new_classes": 479,
+    "common_classes": 431,
+    "same_declared_fields": 370,
+    "changed_classes": 61,
+    "new_class_names": [
+      "NEO.Table.Protocol.ArtifactFighterProto",
+      "NEO.Table.Protocol.ArtifactLevelProto",
+      "NEO.Table.Protocol.ArtifactPrepareStageProto",
+      "NEO.Table.Protocol.ArtifactProto",
+      "NEO.Table.Protocol.AwakenCoreGroupProto",
+      "NEO.Table.Protocol.BenefitProto",
+      "NEO.Table.Protocol.BossChallengePenaltyProto",
+      "NEO.Table.Protocol.BossChallengeProto",
+      "NEO.Table.Protocol.BossChallengeRewardProto",
+      "NEO.Table.Protocol.CollectionBuffProto",
+      "NEO.Table.Protocol.CollectionScoreProto",
+      "NEO.Table.Protocol.CraftCategoryProto",
+      "NEO.Table.Protocol.DreamMatchProto",
+      "NEO.Table.Protocol.EnumProto",
+      "NEO.Table.Protocol.EquipmentBoxRewardProto",
+      "NEO.Table.Protocol.EquipmentCostProto",
+      "NEO.Table.Protocol.EquipmentDungeonDifficultyProto",
+      "NEO.Table.Protocol.EquipmentDungeonStageProto",
+      "NEO.Table.Protocol.EquipmentGradeProto",
+      "NEO.Table.Protocol.EquipmentGradeUpProto",
+      "NEO.Table.Protocol.EquipmentOptionCostProto",
+      "NEO.Table.Protocol.EquipmentOptionProto",
+      "NEO.Table.Protocol.EquipmentPartsTypeProto",
+      "NEO.Table.Protocol.EquipmentPresetProto",
+      "NEO.Table.Protocol.EquipmentProto",
+      "NEO.Table.Protocol.EquipmentRewardGroupProto",
+      "NEO.Table.Protocol.EquipmentRewardProto",
+      "NEO.Table.Protocol.EquipmentStatGroupProto",
+      "NEO.Table.Protocol.EventSummaryMainProto",
+      "NEO.Table.Protocol.GuildCoopSupLevelProto",
+      "NEO.Table.Protocol.MemoryGameCardGroupProto",
+      "NEO.Table.Protocol.MemoryGamePhaseProto",
+      "NEO.Table.Protocol.MemoryGameProto",
+      "NEO.Table.Protocol.MemorySynastryChangeProto",
+      "NEO.Table.Protocol.MonsterLevelStatProto",
+      "NEO.Table.Protocol.PuzzleMainProto",
+      "NEO.Table.Protocol.PuzzleRewardProto",
+      "NEO.Table.Protocol.PuzzleSubProto",
+      "NEO.Table.Protocol.RecommendPopupProto",
+      "NEO.Table.Protocol.RouletteGroupProto",
+      "NEO.Table.Protocol.RunnerModeMainProto",
+      "NEO.Table.Protocol.RunnerModeObstacleProto",
+      "NEO.Table.Protocol.RunnerModeObstacleSpawnProto",
+      "NEO.Table.Protocol.SkillAnimationControlProto",
+      "NEO.Table.Protocol.SmashScheduleProto",
+      "NEO.Table.Protocol.StagePenaltyProto",
+      "NEO.Table.Protocol.StagePenaltyTargetProto",
+      "NEO.Table.Protocol.WeakTypeProto"
+    ],
+    "removed_class_names": [],
+    "changes": [
+      {
+        "class": "NEO.Table.Protocol.AwakenCoreBoardProto",
+        "added": {
+          "_step4MaxLevel": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.AwakenCoreProto",
+        "added": {
+          "_awakenCoreGroup": "int",
+          "_coreSkillNum": "int",
+          "_unlockLv": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.AwakenLevelProto",
+        "added": {
+          "_reqAccumulatedExp6": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.BattleCardAwakeProto",
+        "added": {
+          "_pickUpTicketItemIndex": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.BattleCardSetBuffGroupProto",
+        "added": {
+          "_buffIndex2": "int",
+          "_buffIndex3": "int",
+          "_buffIndex4": "int",
+          "_buffIndex5": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.BingoMainProto",
+        "added": {
+          "_bingoCompleteLine": "int",
+          "_bingoDailyFreeTicket": "int",
+          "_bingoTicketCount": "int",
+          "_bingoTicketIndex": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.BuffProto",
+        "added": {
+          "_buffAtlas": "string",
+          "_buffConditionTermValue": "string",
+          "_buffPowerBaseType": "int",
+          "_minStackCount": "int",
+          "_uniqueGroupIndex": "int",
+          "_uniqueIndex": "int"
+        },
+        "removed": {
+          "_addBuffPowerMax": "float",
+          "_addBuffPowerPerLv": "float",
+          "_addBuffPowerPower": "float",
+          "_buffRangeBase": "float",
+          "_buffRangePerLv": "float",
+          "_cooldownTime": "float"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.ChallengeStageProto",
+        "added": {
+          "_monsterSpawnGroup": "int",
+          "_stageBuffGroupIndex": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.ChangeUpProto",
+        "added": {
+          "_changeUpFighterIndex": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.CharacterGrowthProto",
+        "added": {
+          "_criDmgRateDefBase": "float",
+          "_criDmgRateDefPerLv": "float",
+          "_criRateResBase": "float",
+          "_criRateResPerLv": "float",
+          "_defence2Base": "int",
+          "_defence2PerLv": "int",
+          "_pen2Base": "int",
+          "_pen2PerLv": "int",
+          "_phantomAttackBalanceMax": "float",
+          "_phantomAttackBalanceMin": "float",
+          "_phantomAttackBase": "float",
+          "_phantomAttackPerLv": "float",
+          "_phantomDefenceBase": "float",
+          "_phantomDefencePerLv": "float",
+          "_phantomPenBase": "float",
+          "_phantomPenPerLv": "float"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.CharacterProto",
+        "added": {
+          "_weakTypeIndex": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.CharacterSkillSetProto",
+        "added": {
+          "_pueSkillIndex1": "int",
+          "_ueSkillIndex1": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.ContentsBalanceProto",
+        "added": {
+          "_applyEquipment": "int",
+          "_applyNewStatus": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.ContentsUnlockPopupProto",
+        "added": {
+          "_popupType": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.CoreSpotProto",
+        "added": {
+          "_coreDisplayType": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.CraftProto",
+        "added": {
+          "_categoryIndex": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.DispatchMainProto",
+        "added": {
+          "_dispatchAdd": "int",
+          "_dispatchAddCount": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.DispatchSpotGroupProto",
+        "added": {
+          "_dispatchDropUe": "int",
+          "_dispatchDropUeCount": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.DreamMatchFighterEntryProto",
+        "added": {
+          "_dreamMatchCharacterGroupIndex": "int",
+          "_dreamMatchCharacterGroupOrder": "int",
+          "_dreamMatchGGRate": "float",
+          "_dreamMatchGGRestoreRate": "float",
+          "_dreamMatchHPRate": "float",
+          "_mirrorDreamMatchSeason": "string",
+          "_mirrorGroupYearIndex": "int",
+          "_randomHiddenCharacterRate": "int",
+          "_skillAnimationControlTableIndex": "int",
+          "_sortOrder": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.DropSettingGroupProto",
+        "added": {
+          "_soundResourcePath": "string"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.DropSettingProto",
+        "added": {
+          "_soundResourcePath": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.EventCraftProto",
+        "added": {
+          "_uiScreenBgm": "string",
+          "_uiScreenVoice": "string"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.EventPageMissionGroupProto",
+        "added": {},
+        "removed": {},
+        "type_changes": {
+          "_questGroupIndex": {
+            "old": "int",
+            "new": "string"
+          }
+        }
+      },
+      {
+        "class": "NEO.Table.Protocol.FilterProto",
+        "added": {
+          "_filterSubType": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.GachaFrameGradeRateProto",
+        "added": {
+          "_grade5PurpleBSRate": "int",
+          "_grade5PurpleFESRate": "int",
+          "_grade5PurpleSSRate": "int",
+          "_grade5UERate": "int",
+          "_grade6UERate": "int",
+          "_gradeExBsSsFesRate": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.GachaMainProto",
+        "added": {
+          "_resetItemCount": "int",
+          "_resetItemIndex": "int",
+          "_resetMileageGroup": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.GameinfoModeProto",
+        "added": {
+          "_dreamMatch": "string"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.GlobalDropEventProto",
+        "added": {
+          "_globalMoveTargetList": "string"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.GuildCoopStageGroupProto",
+        "added": {
+          "_guildCoopDisplayDescription": "string",
+          "_guildCoopDisplayIcon": "string",
+          "_guildCoopGuideDescription1": "string",
+          "_guildCoopGuideDescription2": "string"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.InAppPackageGoodsGroupProto",
+        "added": {
+          "_packageIcon": "string"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.InAppPackageProto",
+        "added": {
+          "_benefitEffectGroup": "int",
+          "_inAppCouponPrice": "int",
+          "_mileageEnable": "int",
+          "_mileagePointAmount": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.ItemProto",
+        "added": {
+          "_collectionBuffIndex": "int",
+          "_collectionScore": "int",
+          "_itemDescriptionTag2": "string",
+          "_itemSpine": "string",
+          "_thumbnailBig": "string"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.MemoryCategoryProto",
+        "added": {
+          "_memoryCategoryGroup": "int",
+          "_tradeType": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.ModeProto",
+        "added": {
+          "_enableReplay": "int",
+          "_modeBG": "string",
+          "_modeBGPosition": "string"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.MonsterGrowthProto",
+        "added": {
+          "_criDmgRateDefBase": "float",
+          "_criDmgRateDefPerLv": "float",
+          "_criRateResBase": "float",
+          "_criRateResPerLv": "float",
+          "_defence2Base": "int",
+          "_defence2PerLv": "int",
+          "_pen2Base": "int",
+          "_pen2PerLv": "int",
+          "_phantomAttackBalanceMax": "float",
+          "_phantomAttackBalanceMin": "float",
+          "_phantomAttackBase": "float",
+          "_phantomAttackPerLv": "float",
+          "_phantomDefenceBase": "float",
+          "_phantomDefencePerLv": "float",
+          "_phantomPenBase": "float",
+          "_phantomPenPerLv": "float"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.MonsterProto",
+        "added": {
+          "_dontSlide": "int",
+          "_levelStatType": "int",
+          "_skillIndexList": "int[]",
+          "_skillIndexStringList": "string[]",
+          "_weakTypeIndex": "string"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.MonsterSkillProto",
+        "added": {
+          "_phantomSkillDamageRBase": "float"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.MonsterSpawnProto",
+        "added": {
+          "_monsterLevel": "int",
+          "_spawnPosition": "int",
+          "_spawnType": "int",
+          "_synastryType": "int",
+          "_weakType": "string"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.PassProto",
+        "added": {
+          "_passBGSpine1": "string",
+          "_passBGSpine2": "string",
+          "_passBGSpineMirror1": "int",
+          "_passBGSpineMirror2": "int",
+          "_passBGSpineXY1": "string",
+          "_passBGSpineXY2": "string",
+          "_passItemDeleteType": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.PassiveBuffGroupProto",
+        "added": {
+          "_buffLevel": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.QuestEventProto",
+        "added": {
+          "_displayBuffAtals": "string",
+          "_displayInfoMeta": "string",
+          "_displayInfoMetaDesc": "string",
+          "_displayInfoMetaName": "string",
+          "_displayInfoShort": "string",
+          "_displayInfoSummary": "string",
+          "_displayInfoSynastryType": "string",
+          "_displayInfoWeakType": "string",
+          "_enablePractice": "int",
+          "_questEventFrameUi": "string",
+          "_skipOnItemIndex": "string"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.QuestEventStageProto",
+        "added": {
+          "_aiFinishUseable": "int",
+          "_contentsBalance": "int",
+          "_stagePenaltyGroupIndex": "int",
+          "_uiScreenBgm": "string",
+          "_uiScreenVoiceBgm": "string"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.QuestPointRewardProto",
+        "added": {
+          "_getContributeValue": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.QuestProto",
+        "added": {
+          "_limitLevelEnd": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.ResourceMapProto",
+        "added": {
+          "_orderNumber": "int",
+          "_resourceMapGroupIndex": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.RewardGroupProto",
+        "added": {
+          "_rewardDisplayEventSummary": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.RouletteProto",
+        "added": {},
+        "removed": {
+          "_openEventDataIndex": "int"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.RouletteScheduleProto",
+        "added": {
+          "_needPoint": "int",
+          "_rouletteGroup": "int",
+          "_rouletteLevel": "int"
+        },
+        "removed": {
+          "_dailyFreeTicket": "int",
+          "_dailyFreeTicketIndex": "int",
+          "_eventEndTime": "long",
+          "_eventRewardEndTime": "long",
+          "_eventStartTime": "long",
+          "_eventUrl": "int",
+          "_limitDailyPlayRoulette": "int",
+          "_rouletteNeedItemIndex": "int",
+          "_rouletteNeedItemIndex2": "int",
+          "_rouletteNeedItemType": "int",
+          "_rouletteNeedItemType2": "int",
+          "_rouletteNeedItemValue": "int",
+          "_rouletteNeedItemValue2": "int",
+          "_rouletteTicketDropGroup": "int"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.ShopGoodsProto",
+        "added": {},
+        "removed": {},
+        "type_changes": {
+          "_buyConditionValue": {
+            "old": "int",
+            "new": "string"
+          }
+        }
+      },
+      {
+        "class": "NEO.Table.Protocol.ShopManageProto",
+        "added": {
+          "_returnUserReset": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.SkillCorrectionProto",
+        "added": {
+          "_dreamMatchEmergencyRoll": "int",
+          "_dreamMatchEnableEnemyReposition": "int",
+          "_dreamMatchGuardCrash": "int",
+          "_dreamMatchGuardGaugeReduce": "int",
+          "_dreamMatchProjectileCollision": "int",
+          "_dreamMatchSuperArmorCrash": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.SkillProto",
+        "added": {
+          "_accPTGBase": "int",
+          "_awakenCorePtDmgPerLv": "float",
+          "_phantomSkillDamageRLv1": "float",
+          "_phantomSkillDamageRLv10": "float",
+          "_phantomSkillDamageRLv2": "float",
+          "_phantomSkillDamageRLv3": "float",
+          "_phantomSkillDamageRLv4": "float",
+          "_phantomSkillDamageRLv5": "float",
+          "_phantomSkillDamageRLv6": "float",
+          "_phantomSkillDamageRLv7": "float",
+          "_phantomSkillDamageRLv8": "float",
+          "_phantomSkillDamageRLv9": "float",
+          "_switchingSkillIndex1": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.SmashModeDifficultyProto",
+        "added": {
+          "_difficultyIconImg": "string"
+        },
+        "removed": {
+          "_chapterEndTime": "long",
+          "_chapterStartTime": "long"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.StageBalanceProto",
+        "added": {
+          "_criDmgRateDefG1": "float",
+          "_criDmgRateDefG2": "float",
+          "_criDmgRateDefG3": "float",
+          "_criRateResG1": "float",
+          "_criRateResG2": "float",
+          "_criRateResG3": "float",
+          "_defence2GR1": "float",
+          "_defence2GR2": "float",
+          "_defence2GR3": "float",
+          "_monsterLevel": "int",
+          "_monsterOverallPoint": "int",
+          "_pen2GR1": "float",
+          "_pen2GR2": "float",
+          "_pen2GR3": "float",
+          "_phantomAttackG1": "float",
+          "_phantomAttackG2": "float",
+          "_phantomAttackG3": "float",
+          "_phantomDefenceG1": "float",
+          "_phantomDefenceG2": "float",
+          "_phantomDefenceG3": "float",
+          "_phantomPenG1": "float",
+          "_phantomPenG2": "float",
+          "_phantomPenG3": "float",
+          "_recommendItemPower": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.StageBuffProto",
+        "added": {
+          "_stageBuffTargetType": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.StageEntryListProto",
+        "added": {
+          "_powerLevel": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.StageProto",
+        "added": {
+          "_monsterSpawnGroup": "int",
+          "_stagePenaltyGroupIndex": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.SystemNpcDialogueProto",
+        "added": {
+          "_eventTipImage": "string"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.TeamRelayProto",
+        "added": {
+          "_helpIndex": "int",
+          "_limitFighterCostVisibility": "int",
+          "_playableCountType": "int",
+          "_sortOrder": "int",
+          "_teamRelayBossInfo": "int",
+          "_teamRelayDesc": "string"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Table.Protocol.TeamRelayRewardProto",
+        "added": {},
+        "removed": {},
+        "type_changes": {
+          "_conditionTotalDamage": {
+            "old": "int",
+            "new": "long"
+          }
+        }
+      },
+      {
+        "class": "NEO.Table.Protocol.YearNameProto",
+        "added": {
+          "_dreamMatchYearBGM": "string"
+        },
+        "removed": {},
+        "type_changes": {}
+      }
+    ]
+  },
+  "api": {
+    "old_classes": 688,
+    "new_classes": 698,
+    "common_classes": 687,
+    "same_declared_fields": 639,
+    "changed_classes": 48,
+    "new_class_names": [
+      "NEO.Kof.Api.Protocol.AdsStartResponse",
+      "NEO.Kof.Api.Protocol.ChangeRubyResponse",
+      "NEO.Kof.Api.Protocol.CoreAcquireAllRequest",
+      "NEO.Kof.Api.Protocol.GachaDefaultResetPlayRequest",
+      "NEO.Kof.Api.Protocol.GachaDefaultResetPlayResponse",
+      "NEO.Kof.Api.Protocol.RelayRouletteListResponse",
+      "NEO.Kof.Api.Protocol.RelayRouletteRequest",
+      "NEO.Kof.Api.Protocol.SelectCharacterGroupRequest",
+      "NEO.Kof.Api.Protocol.SelectCharacterGroupResponse",
+      "NEO.Kof.Api.Protocol.ShopCouponBuyRequest",
+      "NEO.Kof.Api.Protocol.ShopCouponBuyResponse"
+    ],
+    "removed_class_names": [
+      "NEO.Kof.Api.Protocol.AdventureSagaClearInfo"
+    ],
+    "changes": [
+      {
+        "class": "NEO.Kof.Api.Protocol.AccountProfileResponse",
+        "added": {
+          "EquipmentInvenSize": "EquipmentInvenSize",
+          "EquipmentList": "RepeatedField<EquipmentWEBData>",
+          "TempEquipmentList": "RepeatedField<EquipmentWEBData>",
+          "badgeIndex": "int",
+          "roomItemList": "List<CollectionRoomItemInfo>"
+        },
+        "removed": {
+          "RouletteEventList": "RepeatedField<RouletteEventSchedule>"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.ArenaLeagueUser",
+        "added": {
+          "badgeIndex": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.BattleCard",
+        "added": {},
+        "removed": {},
+        "type_changes": {
+          "Lock": {
+            "old": "bool",
+            "new": "int"
+          }
+        }
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.BillingVerifyNmbillResponse",
+        "added": {
+          "adsSkipDateTime": "long"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.BuyActivePointRequest",
+        "added": {
+          "BuyCount": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.CardLockRequest",
+        "added": {
+          "battleCardNoList": "List<long>",
+          "likeType": "int",
+          "releaseIndexList": "List<long>"
+        },
+        "removed": {
+          "BattleCardNo": "long",
+          "Lock": "bool"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.CardLockResponse",
+        "added": {
+          "battleCardNoList": "List<long>",
+          "likeType": "int",
+          "releaseIndexList": "List<long>"
+        },
+        "removed": {
+          "BattleCardNo": "long",
+          "Lock": "bool"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.ChallengeRankingUser",
+        "added": {
+          "badgeIndex": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.ChampionshipUser",
+        "added": {
+          "badgeIndex": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.Character",
+        "added": {
+          "parts1no": "long",
+          "parts2no": "long",
+          "parts3no": "long",
+          "parts4no": "long",
+          "parts5no": "long"
+        },
+        "removed": {},
+        "type_changes": {
+          "LikeFlag": {
+            "old": "bool",
+            "new": "int"
+          }
+        }
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.Character4",
+        "added": {},
+        "removed": {},
+        "type_changes": {
+          "LikeFlag": {
+            "old": "bool",
+            "new": "int"
+          }
+        }
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.CharacterLikeRequest",
+        "added": {
+          "CharIndexList": "List<int>",
+          "LikeType": "int",
+          "ReleaseIndexList": "List<int>"
+        },
+        "removed": {
+          "CharacterIndex": "int",
+          "Like": "bool"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.CharacterLikeResponse",
+        "added": {
+          "CharIndexList": "List<int>",
+          "LikeType": "int",
+          "ReleaseIndexList": "List<int>"
+        },
+        "removed": {
+          "CharacterIndex": "int",
+          "Like": "bool"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.CraftBattleCard",
+        "added": {},
+        "removed": {},
+        "type_changes": {
+          "Lock": {
+            "old": "bool",
+            "new": "int"
+          }
+        }
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.DailyRenewResponse",
+        "added": {},
+        "removed": {
+          "RouletteEventList": "RepeatedField<RouletteEventSchedule>"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.FriendProfile",
+        "added": {
+          "badgeIndex": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.FriendRankerCharacterResponse",
+        "added": {
+          "EquipmentList": "List<EquipmentWEBData>"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.GachaDefaultPlayResponse",
+        "added": {
+          "ResetMileage": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.GachaMileage",
+        "added": {
+          "ResetMileage": "int",
+          "ResetRewardList": "string"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.GachaMileageRewardRequest",
+        "added": {
+          "ResetRewardMileage": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.GuildInfo",
+        "added": {
+          "LastWeekDonation": "int",
+          "TotalDonation": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.Item",
+        "added": {
+          "UpdateTime": "long"
+        },
+        "removed": {},
+        "type_changes": {
+          "Lock": {
+            "old": "bool",
+            "new": "int"
+          }
+        }
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.ItemOpenBoxResponse",
+        "added": {
+          "presetCharacterCoreList": "List<PresetCharacterCoreReward>",
+          "presetCharacterList": "List<PresetCharacterReward>"
+        },
+        "removed": {
+          "presetCharacterCoreReward": "List<PresetCharacterCoreReward>",
+          "presetCharacterReward": "List<PresetCharacterReward>"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.ItemUseResponse",
+        "added": {
+          "afterExpPoint": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.LobbyResponse",
+        "added": {
+          "adsSkipDateTime": "long",
+          "artifactInfo": "ArtifactWEBData",
+          "drawBingoList": "RepeatedField<RandomBingoDetail>",
+          "eventPageMissionReddotList": "RepeatedField<int>",
+          "giftEventReddotList": "RepeatedField<int>",
+          "puzzleReddotList": "RepeatedField<int>"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.MatchUserInfoResponse",
+        "added": {
+          "EquipmentList": "List<EquipmentWEBData>",
+          "FighterPresetList": "RepeatedField<CharacterSimple8>"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.MemberInfo",
+        "added": {
+          "badgeIndex": "int",
+          "inviteNickname": "string",
+          "lastWeekDonation": "int",
+          "totalDonation": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.MemberInfo2",
+        "added": {
+          "TotalDonation": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.PlayDeckInfo",
+        "added": {
+          "TeamRelationIndex": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.PlayerBaseSimple",
+        "added": {
+          "BadgeIndex": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.PostReadResponse",
+        "added": {
+          "presetCharacterCoreList": "List<PresetCharacterCoreReward>",
+          "presetCharacterList": "List<PresetCharacterReward>"
+        },
+        "removed": {
+          "presetCharacterCoreReward": "List<PresetCharacterCoreReward>",
+          "presetCharacterReward": "List<PresetCharacterReward>"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.PresetCharacterReward",
+        "added": {},
+        "removed": {},
+        "type_changes": {
+          "likeFlag": {
+            "old": "bool",
+            "new": "int"
+          }
+        }
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.RelayDungeonEndResponse",
+        "added": {
+          "RemainItem": "Item"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.RenewResponse",
+        "added": {
+          "EventPageMissionReddotList": "RepeatedField<int>"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.RouletteEvent",
+        "added": {
+          "RouletteGroup": "int",
+          "RouletteLevel": "int",
+          "RoulettePoint": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.RouletteEventPlay",
+        "added": {
+          "RouletteGroup": "int"
+        },
+        "removed": {
+          "RouletteIndex": "int"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.RouletteInfoResponse",
+        "added": {},
+        "removed": {
+          "RouletteRewardList": "RepeatedField<RouletteReward>",
+          "ShortCutButtonOnOff": "int",
+          "TicketDropInfoList": "RepeatedField<RouletteTicketDrop>"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.RoulettePlayRequest",
+        "added": {
+          "RouletteGroup": "int"
+        },
+        "removed": {
+          "RouletteIndex": "int"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.RoulettePlayResponse",
+        "added": {},
+        "removed": {
+          "PlayCount": "int",
+          "RouletteIndex": "int"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.RouletteRequest",
+        "added": {
+          "rouletteGroup": "int"
+        },
+        "removed": {
+          "RouletteIndex": "int"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.RouletteRewardRequest",
+        "added": {
+          "RouletteGroup": "int"
+        },
+        "removed": {
+          "ItemIndex": "int",
+          "ItemQty": "int",
+          "ItemType": "int",
+          "RouletteIndex": "int"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.RouletteSlot",
+        "added": {
+          "RouletteGroup": "int",
+          "RouletteLevel": "int",
+          "RoulettePoint": "int"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.SessionCreateResponse",
+        "added": {
+          "EquipmentInvenSize": "EquipmentInvenSize",
+          "badgeIndex": "int"
+        },
+        "removed": {
+          "RouletteEventList": "RepeatedField<RouletteEventSchedule>"
+        },
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.SessionStartResponse",
+        "added": {
+          "Withdraw": "PlayerWithdrawWEBData"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.Shop",
+        "added": {
+          "ResetTime": "long"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.ShopGoodsBuyResponse",
+        "added": {
+          "adsSkipDateTime": "long"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.SmashEndResponse",
+        "added": {
+          "artifactPoint": "ArtifactRewardInfo"
+        },
+        "removed": {},
+        "type_changes": {}
+      },
+      {
+        "class": "NEO.Kof.Api.Protocol.TeamRelayDungeon",
+        "added": {},
+        "removed": {},
+        "type_changes": {
+          "BossHP": {
+            "old": "int",
+            "new": "long"
+          }
+        }
+      }
+    ]
+  },
+  "served_response_changes": [
+    {
+      "class": "NEO.Kof.Api.Protocol.AccountProfileResponse",
+      "added": {
+        "EquipmentInvenSize": "EquipmentInvenSize",
+        "EquipmentList": "RepeatedField<EquipmentWEBData>",
+        "TempEquipmentList": "RepeatedField<EquipmentWEBData>",
+        "badgeIndex": "int",
+        "roomItemList": "List<CollectionRoomItemInfo>"
+      },
+      "removed": {
+        "RouletteEventList": "RepeatedField<RouletteEventSchedule>"
+      },
+      "type_changes": {}
+    },
+    {
+      "class": "NEO.Kof.Api.Protocol.BillingVerifyNmbillResponse",
+      "added": {
+        "adsSkipDateTime": "long"
+      },
+      "removed": {},
+      "type_changes": {}
+    },
+    {
+      "class": "NEO.Kof.Api.Protocol.CharacterLikeResponse",
+      "added": {
+        "CharIndexList": "List<int>",
+        "LikeType": "int",
+        "ReleaseIndexList": "List<int>"
+      },
+      "removed": {
+        "CharacterIndex": "int",
+        "Like": "bool"
+      },
+      "type_changes": {}
+    },
+    {
+      "class": "NEO.Kof.Api.Protocol.DailyRenewResponse",
+      "added": {},
+      "removed": {
+        "RouletteEventList": "RepeatedField<RouletteEventSchedule>"
+      },
+      "type_changes": {}
+    },
+    {
+      "class": "NEO.Kof.Api.Protocol.FriendRankerCharacterResponse",
+      "added": {
+        "EquipmentList": "List<EquipmentWEBData>"
+      },
+      "removed": {},
+      "type_changes": {}
+    },
+    {
+      "class": "NEO.Kof.Api.Protocol.GachaDefaultPlayResponse",
+      "added": {
+        "ResetMileage": "int"
+      },
+      "removed": {},
+      "type_changes": {}
+    },
+    {
+      "class": "NEO.Kof.Api.Protocol.ItemOpenBoxResponse",
+      "added": {
+        "presetCharacterCoreList": "List<PresetCharacterCoreReward>",
+        "presetCharacterList": "List<PresetCharacterReward>"
+      },
+      "removed": {
+        "presetCharacterCoreReward": "List<PresetCharacterCoreReward>",
+        "presetCharacterReward": "List<PresetCharacterReward>"
+      },
+      "type_changes": {}
+    },
+    {
+      "class": "NEO.Kof.Api.Protocol.ItemUseResponse",
+      "added": {
+        "afterExpPoint": "int"
+      },
+      "removed": {},
+      "type_changes": {}
+    },
+    {
+      "class": "NEO.Kof.Api.Protocol.MatchUserInfoResponse",
+      "added": {
+        "EquipmentList": "List<EquipmentWEBData>",
+        "FighterPresetList": "RepeatedField<CharacterSimple8>"
+      },
+      "removed": {},
+      "type_changes": {}
+    },
+    {
+      "class": "NEO.Kof.Api.Protocol.PostReadResponse",
+      "added": {
+        "presetCharacterCoreList": "List<PresetCharacterCoreReward>",
+        "presetCharacterList": "List<PresetCharacterReward>"
+      },
+      "removed": {
+        "presetCharacterCoreReward": "List<PresetCharacterCoreReward>",
+        "presetCharacterReward": "List<PresetCharacterReward>"
+      },
+      "type_changes": {}
+    },
+    {
+      "class": "NEO.Kof.Api.Protocol.RelayDungeonEndResponse",
+      "added": {
+        "RemainItem": "Item"
+      },
+      "removed": {},
+      "type_changes": {}
+    },
+    {
+      "class": "NEO.Kof.Api.Protocol.RenewResponse",
+      "added": {
+        "EventPageMissionReddotList": "RepeatedField<int>"
+      },
+      "removed": {},
+      "type_changes": {}
+    },
+    {
+      "class": "NEO.Kof.Api.Protocol.RouletteInfoResponse",
+      "added": {},
+      "removed": {
+        "RouletteRewardList": "RepeatedField<RouletteReward>",
+        "ShortCutButtonOnOff": "int",
+        "TicketDropInfoList": "RepeatedField<RouletteTicketDrop>"
+      },
+      "type_changes": {}
+    },
+    {
+      "class": "NEO.Kof.Api.Protocol.RoulettePlayResponse",
+      "added": {},
+      "removed": {
+        "PlayCount": "int",
+        "RouletteIndex": "int"
+      },
+      "type_changes": {}
+    },
+    {
+      "class": "NEO.Kof.Api.Protocol.SessionCreateResponse",
+      "added": {
+        "EquipmentInvenSize": "EquipmentInvenSize",
+        "badgeIndex": "int"
+      },
+      "removed": {
+        "RouletteEventList": "RepeatedField<RouletteEventSchedule>"
+      },
+      "type_changes": {}
+    },
+    {
+      "class": "NEO.Kof.Api.Protocol.SessionStartResponse",
+      "added": {
+        "Withdraw": "PlayerWithdrawWEBData"
+      },
+      "removed": {},
+      "type_changes": {}
+    },
+    {
+      "class": "NEO.Kof.Api.Protocol.ShopGoodsBuyResponse",
+      "added": {
+        "adsSkipDateTime": "long"
+      },
+      "removed": {},
+      "type_changes": {}
+    },
+    {
+      "class": "NEO.Kof.Api.Protocol.SmashEndResponse",
+      "added": {
+        "artifactPoint": "ArtifactRewardInfo"
+      },
+      "removed": {},
+      "type_changes": {}
+    }
+  ],
+  "gameplay_enum_value_changes": []
+}

@@ -2,6 +2,10 @@
 
 Controle de versão do launcher local funcional e da investigação do cliente PC 1.17.0. Leia [AGENTS.md](AGENTS.md) antes de trabalhar.
 
+**Escopo atual: análise comparativa, sem novas adaptações.** O experimento híbrido 1.17 com dados antigos fica suspenso. O objetivo é avaliar separadamente reparar a versão nova ou portar funções para a antiga, antes de implementar qualquer caminho. Login/lobby do experimento não comprovam a atualização.
+
+Consulte o [relatório comparativo de diferenças, esforço e viabilidade](docs/assessment/COMPARATIVO-1.11-1.17.md), produzido com extrações refeitas a partir dos clientes originais.
+
 ## Estado
 
 O backup completo da instalação 1.11.2 está fora do Git e foi verificado por SHA-256 (17.936 arquivos, 11.098.474.923 bytes). Os originais foram preservados. A cópia experimental 1.17.0 chegou à autenticação local, carregamento das tabelas reconstruídas, conexão TCP e renderização do lobby. Isso não comprova migração completa, combate nem disponibilidade dos personagens recentes.

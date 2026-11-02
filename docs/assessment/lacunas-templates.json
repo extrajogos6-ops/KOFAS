@@ -1,0 +1,102 @@
+[
+  {
+    "response": "AccountProfileResponse",
+    "new_fields_absent_from_template": {
+      "EquipmentInvenSize": "EquipmentInvenSize",
+      "EquipmentList": "RepeatedField<EquipmentWEBData>",
+      "TempEquipmentList": "RepeatedField<EquipmentWEBData>",
+      "badgeIndex": "int",
+      "roomItemList": "List<CollectionRoomItemInfo>"
+    }
+  },
+  {
+    "response": "BillingVerifyNmbillResponse",
+    "new_fields_absent_from_template": {
+      "adsSkipDateTime": "long"
+    }
+  },
+  {
+    "response": "CharacterLikeResponse",
+    "new_fields_absent_from_template": {
+      "CharIndexList": "List<int>",
+      "LikeType": "int",
+      "ReleaseIndexList": "List<int>"
+    }
+  },
+  {
+    "response": "FriendRankerCharacterResponse",
+    "new_fields_absent_from_template": {
+      "EquipmentList": "List<EquipmentWEBData>"
+    }
+  },
+  {
+    "response": "GachaDefaultPlayResponse",
+    "new_fields_absent_from_template": {
+      "ResetMileage": "int"
+    }
+  },
+  {
+    "response": "ItemOpenBoxResponse",
+    "new_fields_absent_from_template": {
+      "presetCharacterCoreList": "List<PresetCharacterCoreReward>",
+      "presetCharacterList": "List<PresetCharacterReward>"
+    }
+  },
+  {
+    "response": "ItemUseResponse",
+    "new_fields_absent_from_template": {
+      "afterExpPoint": "int"
+    }
+  },
+  {
+    "response": "MatchUserInfoResponse",
+    "new_fields_absent_from_template": {
+      "EquipmentList": "List<EquipmentWEBData>",
+      "FighterPresetList": "RepeatedField<CharacterSimple8>"
+    }
+  },
+  {
+    "response": "PostReadResponse",
+    "new_fields_absent_from_template": {
+      "presetCharacterCoreList": "List<PresetCharacterCoreReward>",
+      "presetCharacterList": "List<PresetCharacterReward>"
+    }
+  },
+  {
+    "response": "RelayDungeonEndResponse",
+    "new_fields_absent_from_template": {
+      "RemainItem": "Item"
+    }
+  },
+  {
+    "response": "RenewResponse",
+    "new_fields_absent_from_template": {
+      "EventPageMissionReddotList": "RepeatedField<int>"
+    }
+  },
+  {
+    "response": "SessionCreateResponse",
+    "new_fields_absent_from_template": {
+      "EquipmentInvenSize": "EquipmentInvenSize",
+      "badgeIndex": "int"
+    }
+  },
+  {
+    "response": "SessionStartResponse",
+    "new_fields_absent_from_template": {
+      "Withdraw": "PlayerWithdrawWEBData"
+    }
+  },
+  {
+    "response": "ShopGoodsBuyResponse",
+    "new_fields_absent_from_template": {
+      "adsSkipDateTime": "long"
+    }
+  },
+  {
+    "response": "SmashEndResponse",
+    "new_fields_absent_from_template": {
+      "artifactPoint": "ArtifactRewardInfo"
+    }
+  }
+]

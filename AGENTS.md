@@ -2,6 +2,14 @@
 
 Estas regras valem para todo o repositório. Instruções diretas do usuário têm prioridade.
 
+## Escopo vigente: análise antes de implementação
+
+- O pedido atual é mapear as diferenças entre as bases originais 1.11.2 e 1.17.0 e produzir um relatório de esforço/viabilidade para dois caminhos distintos: reparar a 1.17 ou portar funções específicas para a 1.11.
+- Não implementar a migração, combinar tabelas/dados de versões diferentes, copiar saves entre versões, portar mods ou continuar ajustando o experimento híbrido como se isso fosse a atualização pedida.
+- A cópia híbrida criada anteriormente é um experimento suspenso. Seu login ou lobby não comprova suporte ao conteúdo da 1.17.
+- Usar referências identificadas, hashes e evidências separadas. Distinguir comparação original-original, adaptações locais e experimento híbrido. Separar fatos, inferências e lacunas.
+- Depois do relatório, aguardar a escolha explícita do usuário sobre qual caminho e quais funções executar. Novos experimentos só pertencem à fase escolhida, com objetivo, dados de origem e critério de sucesso documentados previamente.
+
 ## Regra principal: testes sem controlar o PC
 
 - Não controlar mouse, teclado, foco, janelas ou aplicativos do usuário para testar.
