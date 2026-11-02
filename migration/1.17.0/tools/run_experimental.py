@@ -72,7 +72,10 @@ def running_experimental_game():
     except (OSError, ValueError, KeyError):
         return False
     kernel = ctypes.WinDLL('kernel32', use_last_error=True)
+    kernel.OpenProcess.argtypes = [ctypes.c_uint32, ctypes.c_int, ctypes.c_uint32]
     kernel.OpenProcess.restype = ctypes.c_void_p
+    kernel.GetExitCodeProcess.argtypes = [ctypes.c_void_p, ctypes.POINTER(ctypes.c_uint32)]
+    kernel.GetExitCodeProcess.restype = ctypes.c_int
     kernel.QueryFullProcessImageNameW.argtypes = [ctypes.c_void_p, ctypes.c_uint32,
                                                 ctypes.c_wchar_p, ctypes.POINTER(ctypes.c_uint32)]
     kernel.CloseHandle.argtypes = [ctypes.c_void_p]
@@ -80,9 +83,22 @@ def running_experimental_game():
     if not handle:
         return False
     try:
+        def is_active():
+            code = ctypes.c_uint32()
+            if not kernel.GetExitCodeProcess(handle, ctypes.byref(code)):
+                raise RuntimeError('Não foi possível verificar se o processo experimental está ativo.')
+            return code.value == 259  # Windows STILL_ACTIVE
+
+        # Windows can retain an exited process object after its window is gone.
+        # Such a handle opens successfully, but its executable path may be unavailable.
+        if not is_active():
+            return False
         buffer = ctypes.create_unicode_buffer(32768)
         count = ctypes.c_uint32(len(buffer))
         if not kernel.QueryFullProcessImageNameW(handle, 0, buffer, ctypes.byref(count)):
+            # The game may also exit between the first check and the image query.
+            if not is_active():
+                return False
             raise RuntimeError('Não foi possível verificar a identidade do processo experimental.')
         return Path(buffer.value).resolve() == (GAME / 'KOF ALLSTAR.exe').resolve()
     finally:
