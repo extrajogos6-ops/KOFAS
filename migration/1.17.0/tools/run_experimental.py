@@ -107,6 +107,7 @@ def running_experimental_game():
 
 def main():
     import frida
+    from service_job import ServiceJob
     device = frida.get_local_device()
     validate_client()
     DIAGNOSTICS.mkdir(exist_ok=True)
@@ -124,6 +125,7 @@ def main():
     logs = []
     game = None
     session = None
+    service_job = None
     finished = threading.Event()
     tag = time.strftime('run-%Y%m%d-%H%M%S')
     events = (DIAGNOSTICS / (tag + '-events.jsonl')).open('w', encoding='utf-8', buffering=1)
@@ -144,12 +146,14 @@ def main():
             return
         events.write(json.dumps(message, ensure_ascii=False) + '\n')
     try:
+        service_job = ServiceJob()
         if not health():
             log = (SERVER / 'server-output.log').open('w', encoding='utf-8')
             logs.append(log)
             owned.append(subprocess.Popen([sys.executable, '-B', str(SERVER / 'server.py')],
                                           cwd=SERVER, env=environment, stdout=log, stderr=log,
                                           creationflags=0x08000000))
+            service_job.add(owned[-1])
             for _ in range(80):
                 if health():
                     break
@@ -166,6 +170,7 @@ def main():
         lobby = subprocess.Popen([sys.executable, '-B', str(SERVER / 'lobby_tcp.py')], cwd=SERVER,
                                  env=environment, stdout=log, stderr=log, creationflags=0x08000000)
         owned.append(lobby)
+        service_job.add(lobby)
         for _ in range(50):
             if port_open(TCP_PORT):
                 break
@@ -174,6 +179,11 @@ def main():
             time.sleep(.1)
         else:
             raise RuntimeError('Timeout na inicialização do lobby TCP.')
+        # The job now owns service lifetime, including abrupt console closure.
+        # No Popen process handle is needed after the startup checks.
+        for service in owned:
+            service._handle.Close()
+            service.returncode = 0
         game = subprocess.Popen([str(GAME / 'KOF ALLSTAR.exe'), '-screen-fullscreen', '0',
                                  '-screen-width', '1280', '-screen-height', '720', '-logFile',
                                  str(DIAGNOSTICS / (tag + '-unity.log'))], cwd=GAME,
@@ -213,10 +223,8 @@ def main():
                 session.detach()
             except Exception:
                 pass
-        for process in reversed(owned):
-            if process.poll() is None:
-                process.terminate()
-                process.wait(timeout=10)
+        if service_job is not None:
+            service_job.close()
         events.close()
         for log in logs:
             log.close()
