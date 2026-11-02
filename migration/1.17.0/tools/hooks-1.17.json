@@ -1,0 +1,487 @@
+[
+  {
+    "class": "NetmarbleSLogic",
+    "signature": "public static void StartSignIn() { }",
+    "rva": 21902736
+  },
+  {
+    "class": "NetmarbleSLogic",
+    "signature": "public static bool InitializeSDK() { }",
+    "rva": 21903168
+  },
+  {
+    "class": "NetmarbleSLogic",
+    "signature": "private static void OnSignIn(Result result) { }",
+    "rva": 21906400
+  },
+  {
+    "class": "NetmarbleSLogic",
+    "signature": "public static void OnErrorServerConfigLoadFailed() { }",
+    "rva": 21909280
+  },
+  {
+    "class": "NetmarbleSLogic",
+    "signature": "public static void OnErrorNetmarbleSDKNotInService() { }",
+    "rva": 21909552
+  },
+  {
+    "class": "NetmarbleSLogic",
+    "signature": "public static void OnErrorPlayIdMoved() { }",
+    "rva": 21909888
+  },
+  {
+    "class": "NetmarbleSLogic",
+    "signature": "public static void OnErrorEmailAccountLock() { }",
+    "rva": 21910256
+  },
+  {
+    "class": "NetmarbleSLogic",
+    "signature": "public static void OnErrorResignedAccountLock() { }",
+    "rva": 21910624
+  },
+  {
+    "class": "NetmarbleSLogic",
+    "signature": "public static void OnErrorNetmarbleSignInProgress() { }",
+    "rva": 21910752
+  },
+  {
+    "class": "NetmarbleSLogic",
+    "signature": "public static void OnErrorNetmarbleSignInFailed() { }",
+    "rva": 21911088
+  },
+  {
+    "class": "NetmarbleSLogic",
+    "signature": "public static void OnErrorPcAuthFailed() { }",
+    "rva": 21911424
+  },
+  {
+    "class": "NetmarbleSLogic",
+    "signature": "public static void OnErrorPcAuthNoUserData() { }",
+    "rva": 21911616
+  },
+  {
+    "class": "NetmarbleSLogic",
+    "signature": "public static void OnErrorPcNMSSWInitializeFailed(bool exit) { }",
+    "rva": 21911808
+  },
+  {
+    "class": "NetmarbleSLogic",
+    "signature": "public static void TryLogin(Action<bool, string> callback) { }",
+    "rva": 21912448
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private void Awake() { }",
+    "rva": 21984496
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private IEnumerator Start() { }",
+    "rva": 21984592
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "public void SetIntroEnd(bool value) { }",
+    "rva": 21984752
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private string GetAppVersionForConfig() { }",
+    "rva": 21984864
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private void StartDownloads() { }",
+    "rva": 21985024
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private void CheckForConfig() { }",
+    "rva": 21985424
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private void RecvDownloadSecuredConfig(WWW www) { }",
+    "rva": 21985712
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private void OnErrorSecuredConfig(WWW www) { }",
+    "rva": 21986560
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private void InitializeSDK() { }",
+    "rva": 21987024
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private void ConfigLoadFailed() { }",
+    "rva": 21987200
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private void CheckResultServerConfig() { }",
+    "rva": 21987232
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private void OnCDNMaintenance() { }",
+    "rva": 21987840
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private void CheckConfigDone() { }",
+    "rva": 21987984
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private string GetServerName() { }",
+    "rva": 21988032
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private bool ParseConfigServerInfo(string serverName) { }",
+    "rva": 21988256
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private void DoSelectServer(string serverName) { }",
+    "rva": 21988512
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private void SetDisplayServerLabel(string serverName) { }",
+    "rva": 21989056
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private string GetMarketName() { }",
+    "rva": 21989760
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private static string GetServerLabel(JSONNode serverData) { }",
+    "rva": 21989808
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private string GetServerTargetName() { }",
+    "rva": 21989952
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "private void SelectServer() { }",
+    "rva": 21990064
+  },
+  {
+    "class": "ServerSelect",
+    "signature": "public void .ctor() { }",
+    "rva": 21990720
+  },
+  {
+    "class": "SceneLogin",
+    "signature": "public void LoadingEnd() { }",
+    "rva": 23161824
+  },
+  {
+    "class": "SceneLogin",
+    "signature": "private void LoadTableData() { }",
+    "rva": 23162240
+  },
+  {
+    "class": "SceneLogin",
+    "signature": "private void StartLoadTable() { }",
+    "rva": 23164192
+  },
+  {
+    "class": "SceneLogin",
+    "signature": "private void LoadingEndTable() { }",
+    "rva": 23166304
+  },
+  {
+    "class": "SceneLogin",
+    "signature": "private void LoadingEndSound() { }",
+    "rva": 23167760
+  },
+  {
+    "class": "SceneLogin",
+    "signature": "private void StartLogin() { }",
+    "rva": 23167776
+  },
+  {
+    "class": "SceneLogin",
+    "signature": "private IEnumerator LoadTableHashes() { }",
+    "rva": 23170496
+  },
+  {
+    "class": "SceneLogin",
+    "signature": "private void EnterTheGame() { }",
+    "rva": 23171520
+  },
+  {
+    "class": "SceneLogin",
+    "signature": "public static void EnterTheLobby(NetworkManagerWEB.WebResponseCallback onRecvPlayerProfile) { }",
+    "rva": 23172480
+  },
+  {
+    "class": "SceneLogin",
+    "signature": "public void ParseSessionStart(WebPacket packet, SessionStartResponse proto) { }",
+    "rva": 23173680
+  },
+  {
+    "class": "SceneLogin",
+    "signature": "private void RecvSessionStart(WebPacket packet) { }",
+    "rva": 23173968
+  },
+  {
+    "class": "SceneLogin",
+    "signature": "private void RecvPlayerProfile(WebPacket packet) { }",
+    "rva": 23178000
+  },
+  {
+    "class": "SceneLogin",
+    "signature": "public void GoToLobby() { }",
+    "rva": 23181824
+  },
+  {
+    "class": "SceneTitle",
+    "signature": "protected override void Initialize() { }",
+    "rva": 23189520
+  },
+  {
+    "class": "SceneTitle",
+    "signature": "private void StartGameService() { }",
+    "rva": 23190640
+  },
+  {
+    "class": "SceneTitle",
+    "signature": "private static void OnNetmarbleSLogin(bool success, string message) { }",
+    "rva": 23190736
+  },
+  {
+    "class": "AssetBundleDownloader",
+    "signature": "private void SetErrorInfo(Exception exception) { }",
+    "rva": 23293120
+  },
+  {
+    "class": "AssetBundleDownloader",
+    "signature": "private void SetErrorInfo(AssetBundleDownloader.ErrorCode errorCode, string errorMessage) { }",
+    "rva": 23294016
+  },
+  {
+    "class": "AssetBundleLoader",
+    "signature": "public void LoadAssetBundleInternal(string assetBundleName, bool downloadOnly, bool dontRemove) { }",
+    "rva": 23298880
+  },
+  {
+    "class": "AssetBundleLoader",
+    "signature": "private void OnLoadAssetBundle(AssetBundle localBundle, string assetBundleName, bool downloadOnly, bool dontRemove) { }",
+    "rva": 23301008
+  },
+  {
+    "class": "AssetBundleManager",
+    "signature": "private void ShowRetryPopup(string errorMessage, string url) { }",
+    "rva": 23331488
+  },
+  {
+    "class": "AssetBundleManager",
+    "signature": "private void StartLoadSnapshotInfo(string listFileName, AssetBundleManager.SnapshotInfo snapshot) { }",
+    "rva": 23353760
+  },
+  {
+    "class": "AssetBundleManager",
+    "signature": "private void LoadSnapshotInfo(AssetBundleDownloader downloader, AssetBundleManager.SnapshotInfo snapshot) { }",
+    "rva": 23354272
+  },
+  {
+    "class": "AssetBundleManager",
+    "signature": "private void StartLoadRemoteBundleInfo() { }",
+    "rva": 23354896
+  },
+  {
+    "class": "AssetBundleManager",
+    "signature": "private void LoadRemoteBundleInfo(AssetBundleDownloader downloader) { }",
+    "rva": 23355216
+  },
+  {
+    "class": "AssetBundleManager",
+    "signature": "private void ParseBundleInfo(TextReader sr, AssetBundleManager.SnapshotInfo snapshot) { }",
+    "rva": 23356192
+  },
+  {
+    "class": "AssetBundleManager",
+    "signature": "private void ShowAssetLoadFail(string assetName, string assetBundleName, ref bool forceRetry) { }",
+    "rva": 23365008
+  },
+  {
+    "class": "NetworkManagerWEB",
+    "signature": "public void SendPacketJson_BypassCrypt(string name, string jsonData, NetworkManagerWEB.WebResponseCallback callback, bool bShowIndicator, bool retryPopup = True, NetworkManagerWEB.WebErrorCallback errorCallback) { }",
+    "rva": 24625616
+  },
+  {
+    "class": "NetworkManagerWEB",
+    "signature": "public void SendPacketJson(string name, string jsonData, NetworkManagerWEB.WebResponseCallback callback, bool bShowIndicator, bool retryPopup = True, NetworkManagerWEB.WebErrorCallback errorCallback) { }",
+    "rva": 24626256
+  },
+  {
+    "class": "NetworkManagerWEB",
+    "signature": "public void SendPacketJson(string name, string jsonData, object userdata, NetworkManagerWEB.WebResponseCallback callback, bool bShowIndicator, bool retryPopup = True, NetworkManagerWEB.WebErrorCallback errorCallback) { }",
+    "rva": 24626336
+  },
+  {
+    "class": "NetworkManagerWEB",
+    "signature": "public void SendPacketProto(string name, IMessage message, NetworkManagerWEB.WebResponseCallback callback, bool showIndicator, bool showRetryPopup = True, NetworkManagerWEB.WebErrorCallback errorCallback) { }",
+    "rva": 24627008
+  },
+  {
+    "class": "NetworkManagerWEB",
+    "signature": "public void SendPacketProto(string name, IMessage message, object userdata, NetworkManagerWEB.WebResponseCallback callback, bool showIndicator, bool showRetryPopup = True, NetworkManagerWEB.WebErrorCallback errorCallback) { }",
+    "rva": 24628448
+  },
+  {
+    "class": "UIPopup_NetworkError",
+    "signature": "public static void ShowNetworkErrorMessage(UIPopup_NetworkError.NetworkErrorState state, UIPopup_NetworkError.ErrorReason reason, Action okCallback, Action cancelCallback, Action<UIPopup_NetworkError> popupOpened) { }",
+    "rva": 29349600
+  },
+  {
+    "class": "UIPopup_NetworkError",
+    "signature": "public static void OnErrorAssetbundleDownloadFail(string errorMessage, Action okCallback, Action cancelCallback) { }",
+    "rva": 29360176
+  },
+  {
+    "class": "UIPopup_NetworkError",
+    "signature": "public static void OnErrorAssetBundleLoadFail(string errorMessage, Action okCallback, Action cancelCallback) { }",
+    "rva": 29360400
+  },
+  {
+    "class": "UIPopup_NetworkError",
+    "signature": "public static void OnErrorAssetbundleInitializeFail(string errorMessage, Action okCallback) { }",
+    "rva": 29361328
+  },
+  {
+    "class": "UIPopup_NetworkError",
+    "signature": "public static void OnErrorAssetbundleInitializeFail_SnapShot(string errorMessage) { }",
+    "rva": 29361536
+  },
+  {
+    "class": "UIPopup_NetworkError",
+    "signature": "public static void OnErrorAssetbundleInitializeFail_Manifest(string errorMessage, Action okCallback) { }",
+    "rva": 29361808
+  },
+  {
+    "class": "NMSSSA.SecurityManager",
+    "signature": "public void DetectApkIntgError(bool showMessage, bool exit) { }",
+    "rva": 10257728
+  },
+  {
+    "class": "TableData.BaseTable",
+    "signature": "protected bool DecryptAndLoadTable(byte[] cipher, SecureKey key, string hash) { }",
+    "rva": 13660192
+  },
+  {
+    "class": "UnityEngine.PlayerPrefs",
+    "signature": "private static bool TrySetInt(string key, int value) { }",
+    "rva": 47703696
+  },
+  {
+    "class": "UnityEngine.PlayerPrefs",
+    "signature": "private static bool TrySetFloat(string key, float value) { }",
+    "rva": 47703792
+  },
+  {
+    "class": "UnityEngine.PlayerPrefs",
+    "signature": "private static bool TrySetSetString(string key, string value) { }",
+    "rva": 47703888
+  },
+  {
+    "class": "UnityEngine.PlayerPrefs",
+    "signature": "public static void SetInt(string key, int value) { }",
+    "rva": 47703984
+  },
+  {
+    "class": "UnityEngine.PlayerPrefs",
+    "signature": "public static int GetInt(string key, int defaultValue) { }",
+    "rva": 47704176
+  },
+  {
+    "class": "UnityEngine.PlayerPrefs",
+    "signature": "public static int GetInt(string key) { }",
+    "rva": 47704272
+  },
+  {
+    "class": "UnityEngine.PlayerPrefs",
+    "signature": "public static void SetFloat(string key, float value) { }",
+    "rva": 47704368
+  },
+  {
+    "class": "UnityEngine.PlayerPrefs",
+    "signature": "public static float GetFloat(string key, float defaultValue) { }",
+    "rva": 47704560
+  },
+  {
+    "class": "UnityEngine.PlayerPrefs",
+    "signature": "public static float GetFloat(string key) { }",
+    "rva": 47704656
+  },
+  {
+    "class": "UnityEngine.PlayerPrefs",
+    "signature": "public static void SetString(string key, string value) { }",
+    "rva": 47704752
+  },
+  {
+    "class": "UnityEngine.PlayerPrefs",
+    "signature": "public static string GetString(string key, string defaultValue) { }",
+    "rva": 47704944
+  },
+  {
+    "class": "UnityEngine.PlayerPrefs",
+    "signature": "public static string GetString(string key) { }",
+    "rva": 47705040
+  },
+  {
+    "class": "UnityEngine.PlayerPrefs",
+    "signature": "public static bool HasKey(string key) { }",
+    "rva": 47705168
+  },
+  {
+    "class": "UnityEngine.PlayerPrefs",
+    "signature": "public static void DeleteKey(string key) { }",
+    "rva": 47705248
+  },
+  {
+    "class": "UnityEngine.PlayerPrefs",
+    "signature": "public static void DeleteAll() { }",
+    "rva": 47705328
+  },
+  {
+    "class": "UnityEngine.PlayerPrefs",
+    "signature": "public static void Save() { }",
+    "rva": 47705408
+  },
+  {
+    "class": "UnityEngine.PlayerPrefs",
+    "signature": "public void .ctor() { }",
+    "rva": 2834432
+  },
+  {
+    "class": "Netmarble.CrashReporter.NMCrashReporter",
+    "signature": "public static void Initialize(string gameCode) { }",
+    "rva": 43726464
+  },
+  {
+    "class": "Netmarble.CrashReporter.NMCrashReporter",
+    "signature": "public static void Initialize(string gameCode, NMCrashReporterConfig config) { }",
+    "rva": 43726592
+  },
+  {
+    "class": "Netmarble.CrashReporter.Util.DataManager",
+    "signature": "private static string SetAndGetRequiredCacheDirectory() { }",
+    "rva": 43740448
+  },
+  {
+    "class": "Netmarble.CrashReporter.Internal.NMCrashReporterInternal",
+    "signature": "internal void Initialize(string gameCode, NMCrashReporterConfig config) { }",
+    "rva": 43973072
+  }
+]

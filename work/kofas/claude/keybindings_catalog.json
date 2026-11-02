@@ -1,0 +1,721 @@
+{
+  "version": 1,
+  "actions": [
+    {
+      "id": "Up",
+      "type": 1,
+      "label": "Mover para cima",
+      "defaults": [
+        "ArrowUp",
+        null
+      ]
+    },
+    {
+      "id": "Down",
+      "type": 2,
+      "label": "Mover para baixo",
+      "defaults": [
+        "ArrowDown",
+        null
+      ]
+    },
+    {
+      "id": "Left",
+      "type": 3,
+      "label": "Mover para a esquerda",
+      "defaults": [
+        "ArrowLeft",
+        null
+      ]
+    },
+    {
+      "id": "Right",
+      "type": 4,
+      "label": "Mover para a direita",
+      "defaults": [
+        "ArrowRight",
+        null
+      ]
+    },
+    {
+      "id": "Combo",
+      "type": 5,
+      "label": "Ataque básico",
+      "defaults": [
+        "KeyQ",
+        null
+      ]
+    },
+    {
+      "id": "SkillA",
+      "type": 6,
+      "label": "Habilidade 1",
+      "defaults": [
+        "Digit1",
+        "Numpad1"
+      ]
+    },
+    {
+      "id": "SkillB",
+      "type": 7,
+      "label": "Habilidade 2",
+      "defaults": [
+        "Digit2",
+        "Numpad2"
+      ]
+    },
+    {
+      "id": "SkillC",
+      "type": 8,
+      "label": "Habilidade 3",
+      "defaults": [
+        "Digit3",
+        "Numpad3"
+      ]
+    },
+    {
+      "id": "Finish",
+      "type": 9,
+      "label": "Golpe especial",
+      "defaults": [
+        "Digit4",
+        "Numpad4"
+      ]
+    },
+    {
+      "id": "Ultimate",
+      "type": 10,
+      "label": "Ultimate",
+      "defaults": [
+        "Digit5",
+        "Numpad5"
+      ]
+    },
+    {
+      "id": "Awake",
+      "type": 11,
+      "label": "Ativar despertar",
+      "defaults": [
+        "Digit6",
+        "Numpad6"
+      ]
+    },
+    {
+      "id": "Guard",
+      "type": 12,
+      "label": "Defender",
+      "defaults": [
+        "KeyE",
+        null
+      ]
+    },
+    {
+      "id": "Roll",
+      "type": 13,
+      "label": "Esquivar",
+      "defaults": [
+        "KeyR",
+        null
+      ]
+    },
+    {
+      "id": "TagA",
+      "type": 14,
+      "label": "Trocar personagem 1",
+      "defaults": [
+        "KeyX",
+        null
+      ]
+    },
+    {
+      "id": "TagB",
+      "type": 15,
+      "label": "Trocar personagem 2",
+      "defaults": [
+        "KeyZ",
+        null
+      ]
+    },
+    {
+      "id": "Supporter",
+      "type": 16,
+      "label": "Chamar apoiador",
+      "defaults": [
+        "KeyC",
+        null
+      ]
+    },
+    {
+      "id": "Striker",
+      "type": 17,
+      "label": "Chamar striker",
+      "defaults": [
+        "KeyV",
+        null
+      ]
+    },
+    {
+      "id": "Auto",
+      "type": 18,
+      "label": "Ativar / desativar automático",
+      "defaults": [
+        "KeyF",
+        null
+      ]
+    },
+    {
+      "id": "Pause",
+      "type": 19,
+      "label": "Pausar / voltar",
+      "defaults": [
+        "Escape",
+        null
+      ]
+    },
+    {
+      "id": "HelpKeySetting",
+      "type": 20,
+      "label": "Mostrar controles",
+      "defaults": [
+        "F1",
+        null
+      ]
+    },
+    {
+      "id": "ScreenMode",
+      "type": 21,
+      "label": "Alternar tela cheia",
+      "defaults": [
+        "F11",
+        null
+      ]
+    },
+    {
+      "id": "DerivedSkill",
+      "type": 22,
+      "label": "Habilidade derivada",
+      "defaults": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": "ExSkill",
+      "type": 23,
+      "label": "Habilidade EX",
+      "defaults": [
+        "Digit7",
+        null
+      ]
+    },
+    {
+      "id": "GuildChat",
+      "type": 24,
+      "label": "Abrir chat da guilda",
+      "defaults": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": "TagC",
+      "type": 25,
+      "label": "Trocar personagem 3",
+      "defaults": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": "TagD",
+      "type": 26,
+      "label": "Trocar personagem 4",
+      "defaults": [
+        null,
+        null
+      ]
+    }
+  ],
+  "keys": [
+    {
+      "code": "KeyA",
+      "label": "A",
+      "unity": 97
+    },
+    {
+      "code": "KeyB",
+      "label": "B",
+      "unity": 98
+    },
+    {
+      "code": "KeyC",
+      "label": "C",
+      "unity": 99
+    },
+    {
+      "code": "KeyD",
+      "label": "D",
+      "unity": 100
+    },
+    {
+      "code": "KeyE",
+      "label": "E",
+      "unity": 101
+    },
+    {
+      "code": "KeyF",
+      "label": "F",
+      "unity": 102
+    },
+    {
+      "code": "KeyG",
+      "label": "G",
+      "unity": 103
+    },
+    {
+      "code": "KeyH",
+      "label": "H",
+      "unity": 104
+    },
+    {
+      "code": "KeyI",
+      "label": "I",
+      "unity": 105
+    },
+    {
+      "code": "KeyJ",
+      "label": "J",
+      "unity": 106
+    },
+    {
+      "code": "KeyK",
+      "label": "K",
+      "unity": 107
+    },
+    {
+      "code": "KeyL",
+      "label": "L",
+      "unity": 108
+    },
+    {
+      "code": "KeyM",
+      "label": "M",
+      "unity": 109
+    },
+    {
+      "code": "KeyN",
+      "label": "N",
+      "unity": 110
+    },
+    {
+      "code": "KeyO",
+      "label": "O",
+      "unity": 111
+    },
+    {
+      "code": "KeyP",
+      "label": "P",
+      "unity": 112
+    },
+    {
+      "code": "KeyQ",
+      "label": "Q",
+      "unity": 113
+    },
+    {
+      "code": "KeyR",
+      "label": "R",
+      "unity": 114
+    },
+    {
+      "code": "KeyS",
+      "label": "S",
+      "unity": 115
+    },
+    {
+      "code": "KeyT",
+      "label": "T",
+      "unity": 116
+    },
+    {
+      "code": "KeyU",
+      "label": "U",
+      "unity": 117
+    },
+    {
+      "code": "KeyV",
+      "label": "V",
+      "unity": 118
+    },
+    {
+      "code": "KeyW",
+      "label": "W",
+      "unity": 119
+    },
+    {
+      "code": "KeyX",
+      "label": "X",
+      "unity": 120
+    },
+    {
+      "code": "KeyY",
+      "label": "Y",
+      "unity": 121
+    },
+    {
+      "code": "KeyZ",
+      "label": "Z",
+      "unity": 122
+    },
+    {
+      "code": "Digit0",
+      "label": "0",
+      "unity": 48
+    },
+    {
+      "code": "Numpad0",
+      "label": "Num 0",
+      "unity": 256
+    },
+    {
+      "code": "Digit1",
+      "label": "1",
+      "unity": 49
+    },
+    {
+      "code": "Numpad1",
+      "label": "Num 1",
+      "unity": 257
+    },
+    {
+      "code": "Digit2",
+      "label": "2",
+      "unity": 50
+    },
+    {
+      "code": "Numpad2",
+      "label": "Num 2",
+      "unity": 258
+    },
+    {
+      "code": "Digit3",
+      "label": "3",
+      "unity": 51
+    },
+    {
+      "code": "Numpad3",
+      "label": "Num 3",
+      "unity": 259
+    },
+    {
+      "code": "Digit4",
+      "label": "4",
+      "unity": 52
+    },
+    {
+      "code": "Numpad4",
+      "label": "Num 4",
+      "unity": 260
+    },
+    {
+      "code": "Digit5",
+      "label": "5",
+      "unity": 53
+    },
+    {
+      "code": "Numpad5",
+      "label": "Num 5",
+      "unity": 261
+    },
+    {
+      "code": "Digit6",
+      "label": "6",
+      "unity": 54
+    },
+    {
+      "code": "Numpad6",
+      "label": "Num 6",
+      "unity": 262
+    },
+    {
+      "code": "Digit7",
+      "label": "7",
+      "unity": 55
+    },
+    {
+      "code": "Numpad7",
+      "label": "Num 7",
+      "unity": 263
+    },
+    {
+      "code": "Digit8",
+      "label": "8",
+      "unity": 56
+    },
+    {
+      "code": "Numpad8",
+      "label": "Num 8",
+      "unity": 264
+    },
+    {
+      "code": "Digit9",
+      "label": "9",
+      "unity": 57
+    },
+    {
+      "code": "Numpad9",
+      "label": "Num 9",
+      "unity": 265
+    },
+    {
+      "code": "F1",
+      "label": "F1",
+      "unity": 282
+    },
+    {
+      "code": "F2",
+      "label": "F2",
+      "unity": 283
+    },
+    {
+      "code": "F3",
+      "label": "F3",
+      "unity": 284
+    },
+    {
+      "code": "F4",
+      "label": "F4",
+      "unity": 285
+    },
+    {
+      "code": "F5",
+      "label": "F5",
+      "unity": 286
+    },
+    {
+      "code": "F6",
+      "label": "F6",
+      "unity": 287
+    },
+    {
+      "code": "F7",
+      "label": "F7",
+      "unity": 288
+    },
+    {
+      "code": "F8",
+      "label": "F8",
+      "unity": 289
+    },
+    {
+      "code": "F9",
+      "label": "F9",
+      "unity": 290
+    },
+    {
+      "code": "F10",
+      "label": "F10",
+      "unity": 291
+    },
+    {
+      "code": "F11",
+      "label": "F11",
+      "unity": 292
+    },
+    {
+      "code": "F12",
+      "label": "F12",
+      "unity": 293
+    },
+    {
+      "code": "ArrowUp",
+      "label": "↑",
+      "unity": 273
+    },
+    {
+      "code": "ArrowDown",
+      "label": "↓",
+      "unity": 274
+    },
+    {
+      "code": "ArrowLeft",
+      "label": "←",
+      "unity": 276
+    },
+    {
+      "code": "ArrowRight",
+      "label": "→",
+      "unity": 275
+    },
+    {
+      "code": "Space",
+      "label": "Espaço",
+      "unity": 32
+    },
+    {
+      "code": "Enter",
+      "label": "Enter",
+      "unity": 13
+    },
+    {
+      "code": "Tab",
+      "label": "Tab",
+      "unity": 9
+    },
+    {
+      "code": "Escape",
+      "label": "Esc",
+      "unity": 27
+    },
+    {
+      "code": "ShiftLeft",
+      "label": "Shift esq.",
+      "unity": 304
+    },
+    {
+      "code": "ShiftRight",
+      "label": "Shift dir.",
+      "unity": 303
+    },
+    {
+      "code": "ControlLeft",
+      "label": "Ctrl esq.",
+      "unity": 306
+    },
+    {
+      "code": "ControlRight",
+      "label": "Ctrl dir.",
+      "unity": 305
+    },
+    {
+      "code": "AltLeft",
+      "label": "Alt esq.",
+      "unity": 308
+    },
+    {
+      "code": "AltRight",
+      "label": "Alt dir.",
+      "unity": 307
+    },
+    {
+      "code": "CapsLock",
+      "label": "Caps Lock",
+      "unity": 301
+    },
+    {
+      "code": "Home",
+      "label": "Home",
+      "unity": 278
+    },
+    {
+      "code": "End",
+      "label": "End",
+      "unity": 279
+    },
+    {
+      "code": "PageUp",
+      "label": "Page Up",
+      "unity": 280
+    },
+    {
+      "code": "PageDown",
+      "label": "Page Down",
+      "unity": 281
+    },
+    {
+      "code": "Insert",
+      "label": "Insert",
+      "unity": 277
+    },
+    {
+      "code": "Delete",
+      "label": "Delete",
+      "unity": 127
+    },
+    {
+      "code": "Minus",
+      "label": "−",
+      "unity": 45
+    },
+    {
+      "code": "Equal",
+      "label": "=",
+      "unity": 61
+    },
+    {
+      "code": "BracketLeft",
+      "label": "[",
+      "unity": 91
+    },
+    {
+      "code": "BracketRight",
+      "label": "]",
+      "unity": 93
+    },
+    {
+      "code": "Semicolon",
+      "label": ";",
+      "unity": 59
+    },
+    {
+      "code": "Quote",
+      "label": "'",
+      "unity": 39
+    },
+    {
+      "code": "Backquote",
+      "label": "`",
+      "unity": 96
+    },
+    {
+      "code": "Backslash",
+      "label": "\\",
+      "unity": 92
+    },
+    {
+      "code": "Comma",
+      "label": ",",
+      "unity": 44
+    },
+    {
+      "code": "Period",
+      "label": ".",
+      "unity": 46
+    },
+    {
+      "code": "Slash",
+      "label": "/",
+      "unity": 47
+    },
+    {
+      "code": "NumpadDecimal",
+      "label": "Num .",
+      "unity": 266
+    },
+    {
+      "code": "NumpadAdd",
+      "label": "Num +",
+      "unity": 270
+    },
+    {
+      "code": "NumpadSubtract",
+      "label": "Num −",
+      "unity": 269
+    },
+    {
+      "code": "NumpadMultiply",
+      "label": "Num ×",
+      "unity": 268
+    },
+    {
+      "code": "NumpadDivide",
+      "label": "Num ÷",
+      "unity": 267
+    },
+    {
+      "code": "NumpadEnter",
+      "label": "Num Enter",
+      "unity": 271
+    }
+  ]
+}

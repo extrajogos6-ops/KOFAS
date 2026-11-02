@@ -1,0 +1,11 @@
+{
+ "SecurityDataTable": {
+  "EncryptionKey": "6B6F6661732D6C6F63616C2D7461626C",
+  "Iv": "6B6F6661732D6C6F63616C2D69763031"
+ },
+ "SecurityLocalizing": {
+  "EncryptionKey": "6B6F6661732D6C6F63616C2D6C616E67",
+  "Iv": "6B6F6661732D6C6F63616C2D69763032"
+ },
+ "note": "local synthetic keys"
+}

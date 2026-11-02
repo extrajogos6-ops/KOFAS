@@ -1,0 +1,15 @@
+{
+  "name": "kofas-development-tools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ferramentas de desenvolvimento e testes isolados do KOFAS local",
+  "scripts": {
+    "mcp:playwright": "node node_modules/@playwright/mcp/cli.js --headless --isolated --browser chrome",
+    "test:mcp": "node scripts/test-playwright-mcp.mjs",
+    "test:launcher": "node --experimental-strip-types --test launcher/src/*.test.ts"
+  },
+  "devDependencies": {
+    "@playwright/mcp": "0.0.84"
+  },
+  "engines": { "node": ">=22" }
+}

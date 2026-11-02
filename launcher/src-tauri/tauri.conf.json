@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "KOF ALLSTAR Launcher",
+  "version": "0.1.0",
+  "identifier": "local.kofallstar.launcher",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://127.0.0.1:5173",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [{
+      "label": "main",
+      "title": "KOF ALLSTAR Launcher",
+      "width": 1180,
+      "height": 664,
+      "minWidth": 800,
+      "minHeight": 450,
+      "decorations": false,
+      "resizable": true,
+      "maximizable": false,
+      "center": true,
+      "backgroundColor": "#000000"
+    }],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' asset: http://asset.localhost; media-src 'self' blob:; connect-src ipc: http://ipc.localhost; object-src 'none'; base-uri 'none'; frame-src 'none'",
+      "capabilities": [{
+        "identifier": "launcher-window",
+        "windows": ["main"],
+        "permissions": ["core:default", "core:window:allow-start-dragging", "core:window:allow-minimize", "core:window:allow-close"]
+      }]
+    }
+  },
+  "bundle": {"active": false}
+}

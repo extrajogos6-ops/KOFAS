@@ -1,0 +1,540 @@
+{
+  "note": "Exact source copies. No game clients, personal profiles, logs, binaries or SDKs imported. Baselines have different service ports and are not a unified build.",
+  "files": [
+    {
+      "path": "server/affection.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "e858b26150491facb14902312dd0b593baffcbebc5321eef49f7f3a0ed36e25e"
+    },
+    {
+      "path": "server/allout.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "58dbed4fd4ef26eef5aa1a49c598988b76a4ab326405aec678748208dc86b267"
+    },
+    {
+      "path": "server/api-defaults.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "d7ff5c288f5326cd77f65d6f1e230da276d96f128131e5dfe9aeda160fd56d03"
+    },
+    {
+      "path": "server/asset-index.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "d8cce1b4136d46945f541886b643f71bb4cee5beda373d419313faaa34b1d14c"
+    },
+    {
+      "path": "server/attendance.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "a959dfeb6e10f6d21c8518c1bfe066aa5e20ac669b70a72ab7defc3e6cfd7c5c"
+    },
+    {
+      "path": "server/audit_progression.py",
+      "origin": "experimental-server-1.17",
+      "sha256": "40d40761d8c511282b729f9c8c90c75dc8b1ed773eef359a436f84411ae1f438"
+    },
+    {
+      "path": "server/awaken.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "1e3221d8693166e509ede5e3439ccdacf92d01c3fc8ecd225e722c3b28e058f5"
+    },
+    {
+      "path": "server/base_stars.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "faaa73e8f6d94a0951c2b2b2dc1419b79d955943bcc6e6142ca226aa2fdb40d9"
+    },
+    {
+      "path": "server/battlecards.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "116de2bc1b5a2c68d43e24a0c4ab95f6f19da91def3dd987740040742e59baca"
+    },
+    {
+      "path": "server/battlefield.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "e0b5b54a2990689438f1e73c5a900b00f951856b9b7987b2e5bea2a5bca8d298"
+    },
+    {
+      "path": "server/bingo.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "176e0d85ad09d71d7fc2dcd4361609ea1e1e791b3fde2d94682f43c6eab6a984"
+    },
+    {
+      "path": "server/cardlevel.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "0d84c639799d219ca03f0e5c61126f2901a9a17305f472b8b585e91d5e7e79a1"
+    },
+    {
+      "path": "server/carnival.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "2e3d267ef6bddea21c5b7bfbb7dfec12bbbaadd0e75a547789cdc1b97bcc4a85"
+    },
+    {
+      "path": "server/challenge.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "ecd2c36deb181b2756da06888a2b06bf6bf8bb815e798f89d14e59ec3132c395"
+    },
+    {
+      "path": "server/char_groups.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "2903e7dafa1920de93e25527345acb9ab89d382583928dfad295506d8bc76737"
+    },
+    {
+      "path": "server/collection.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "dd3da1feadc1b83e43263c9d2e04a790e8519969ab04bcebf285b8186a2875a3"
+    },
+    {
+      "path": "server/configuration.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "14c7376ed6c2e6e0253a90d8b01d61f27e664762ae21d547756c683451d273bc"
+    },
+    {
+      "path": "server/cores.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "c1bfe04e6ce60a0ea338b1b078ac2fcba8af6fe470422ad33e4a6a6320b99098"
+    },
+    {
+      "path": "server/craft.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "490f2c659159d2a4e08078e74990424d1fed4ca4d236e2bc34bf74730d8fa554"
+    },
+    {
+      "path": "server/dice.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "84464900e129d00a054a1d472d2d6f35a5a34d2b023de91e273b69f9a9e861ff"
+    },
+    {
+      "path": "server/dispatch.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "217cd9c2c23317ea5b7d47023c1d006904cf355948b0cb8399ef9d3861da1c7c"
+    },
+    {
+      "path": "server/epicquest.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "c59309ae93254257eef241206a58b7122e7629c4f2eff85163e1859e0d91f147"
+    },
+    {
+      "path": "server/eventbook.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "f9576e64d9c04f84bcab1d44dc5d92821372e53c5c7c81c21968191086dcb5cd"
+    },
+    {
+      "path": "server/eventcraft.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "9caf1f672d20295b64f5671e7ac13b5ce4788a1758a88aa35e7f52e6f547fbe0"
+    },
+    {
+      "path": "server/eventpagemission.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "8aea65a833367cb91de363f907d8e2fb6508e6e5c9d0255298a3854412e493c1"
+    },
+    {
+      "path": "server/eventtower.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "8c3e23857eef45813da2c0453f6f432731d9950bc08cc80a55a16aca4ad69b31"
+    },
+    {
+      "path": "server/explore.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "521d748224e458365347911046f1f807ece2af7ffec8a5283463b560752f6ec8"
+    },
+    {
+      "path": "server/fame.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "bf260021d270d59078b04dda694535edcfd6d74ed9564f80b7bf1cb98beb6786"
+    },
+    {
+      "path": "server/fighterquest.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "51b555d6262a8f53bb385e61fd7a1f3d37e55f29f60ed139b748d04ad4e6e2f3"
+    },
+    {
+      "path": "server/gacha_pool.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "cdd9de5ba90761f2f0cdc073736249c19cd65a4671907a8fbe6cd41b588eebf4"
+    },
+    {
+      "path": "server/gcoop.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "de1f23f82e58750807a89d5581e98462f45101dcf09fe303012f99b701791882"
+    },
+    {
+      "path": "server/giftevent.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "e39427421f5c3f4a692072a7cc7118f22371c846e1efe414322e390c86ef59c8"
+    },
+    {
+      "path": "server/groupgrowth.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "44ba5311a25fc8e8dabafa6ba80360fb3bed3cd66a2dbf014cd4ab149661bd96"
+    },
+    {
+      "path": "server/growth.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "9a2916610dec8c01e5a29802173db57b5e4fc4e43c3fd586c43610d3b0a2c9e9"
+    },
+    {
+      "path": "server/guild.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "70f754267296a9233dca80e6aa59d5c5fa6e026c9a86ff7537249d4fa347cf9f"
+    },
+    {
+      "path": "server/guildraid.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "40a5702e6f53726672186ad7e52f7d8216788e8683b8d5f66b566604b0f85713"
+    },
+    {
+      "path": "server/halloffame.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "8a1d02702784a0a5e949f7ac13a259cd5f229085fda35cbb85f50c3259cde3ab"
+    },
+    {
+      "path": "server/imprint.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "c717ab889d9f19b0d4caee7685dcfec2d4db49a1d9beff9bbfef8fabbf89d2a3"
+    },
+    {
+      "path": "server/infinite.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "32d5104f8b921453cb60998ace209c099a9df29a04939e0c9d4c0ac96fff28ed"
+    },
+    {
+      "path": "server/launch.pyw",
+      "origin": "experimental-server-1.17",
+      "sha256": "cbc4f9b5ac6ce0ebdec8445c19a0793386ede0e3a8d3a6e13b6b36efc28255cc"
+    },
+    {
+      "path": "server/league.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "b7b42ebaaf32339c18b3d75f7f24efae4812f9614db9e7e8aafb800207ab23de"
+    },
+    {
+      "path": "server/lobby_tcp.py",
+      "origin": "experimental-server-1.17",
+      "sha256": "a68ffda4db109076e0f9ef931ca0fb42881fadf89b16f04b98e175bb3835428b"
+    },
+    {
+      "path": "server/local_auth.py",
+      "origin": "experimental-server-1.17",
+      "sha256": "26769a4390103e50797bc7223505d05a6b2784404b0c7a697da2f2fd80638e15"
+    },
+    {
+      "path": "server/local_card_progression.py",
+      "origin": "experimental-server-1.17",
+      "sha256": "ca35e38ac76e0b97971865e15ba4fa57c0ee51940e011148b88b2a7fcc125d3c"
+    },
+    {
+      "path": "server/local_player.py",
+      "origin": "experimental-server-1.17",
+      "sha256": "0b06eb47898b0ff8af7cb1216c0eeea09db2f2f8bb8154aa24662b64b769a408"
+    },
+    {
+      "path": "server/local_poll.py",
+      "origin": "experimental-server-1.17",
+      "sha256": "0d163c64a2ad5a69ad6591aa5b0447b7a78798b288598afd6563d410a0820295"
+    },
+    {
+      "path": "server/local_progression.py",
+      "origin": "experimental-server-1.17",
+      "sha256": "0eb61cf82f883111ddb5b650fad3db9229d92d564bb74802bcf87df658336fc1"
+    },
+    {
+      "path": "server/luckychance.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "a9dd0ffb89381b1cf7dc277cf6448f7ba4eb6991a2d3ca6869278374ff6efe17"
+    },
+    {
+      "path": "server/marathon.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "8795885d87faaacd2828128228025aac7d7a32016d188019c515db9e289cad9d"
+    },
+    {
+      "path": "server/memtrade.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "e6c197d9b715baa4c937834adf1c324847bb40dbac718072f37a585837ac0eb9"
+    },
+    {
+      "path": "server/missions.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "35d4373ec81e035075b28b37169aac9a5955b79ab14dccd73ee255e864616ad6"
+    },
+    {
+      "path": "server/pass.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "eb24428b24e2d7a543df859302db5475c55d86c95390a0446055de949b8490c6"
+    },
+    {
+      "path": "server/pieces.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "1e3b3221f6eeb751c9f5531ebd1ce8f80b020388761d235d1e5420939cd1489d"
+    },
+    {
+      "path": "server/prove.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "04ffd9603cc779f34fe204bfd2fa4a63152adb93f97870ab94d350403952afe4"
+    },
+    {
+      "path": "server/questevent.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "f4264c51003a540fd6f5a450543466a3c8351c1547ca598a51e4dbb58e30ed5f"
+    },
+    {
+      "path": "server/questpoints.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "648194d55dc747aa027c15e0546faf8aab78dd4178615f79113742810f1c15e0"
+    },
+    {
+      "path": "server/roster.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "cbeb0df9e392d5eadeaa0fdca066ac79916cdb990926643e48a8e4c06e8c9eb4"
+    },
+    {
+      "path": "server/roulette.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "0823064570734c01f224ba2e360d622a31a853550fc4b9e9651469dd93ba703a"
+    },
+    {
+      "path": "server/sagas.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "661eae9277f6d926725c2d018c9eb73fda11bf9ce7a130edf831753c7c4689ec"
+    },
+    {
+      "path": "server/selectfighter.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "5029bd04532d2dd7199dc73bae01ffd56bd47cf34026ba4761a68d946a60e985"
+    },
+    {
+      "path": "server/series.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "3c6e16036ccc226a1b0e4e35193a82b2527449d50155796adcdf11ad76056af6"
+    },
+    {
+      "path": "server/seriesmission.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "e7008b1f9ea72f1f383af13c674b770e04359d170f93a6a4ae7e1795d57521d1"
+    },
+    {
+      "path": "server/server.py",
+      "origin": "experimental-server-1.17",
+      "sha256": "df22c9fa2288842850c7c17047999dd90f1856d142e57cbb9508a2fee68a353a"
+    },
+    {
+      "path": "server/shop.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "3c692e20f8a05db621586d55d1ac1b79964c6a82a9f1f15213dd63357a3e5cba"
+    },
+    {
+      "path": "server/smash.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "f6c25040ffd9d4a28a5ad33f9cca53d5895c0c9d0e625f307564d4c2b2087d70"
+    },
+    {
+      "path": "server/soul.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "11961492550f6d8e57c85bba2361921e23cb69b4fc9f63e738a1786f753fb711"
+    },
+    {
+      "path": "server/story_gold.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "05b7b1c6cdbc3e17e2bc52558c4697ff8a4fe33b26cb2baf474b0f9a3768ecf8"
+    },
+    {
+      "path": "server/story_rows_index.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "ee5bc7a022e0e1241a43999d43cbc7ed5d56255f98b8c9519c4a487ce897face"
+    },
+    {
+      "path": "server/supermission.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "5f6421bc2c14a0da86e6beb9dafcf5d947cc8bf51f2956fa03c206d53bdd4468"
+    },
+    {
+      "path": "server/sura.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "15e99040a872f33d600f69b9113268b9099e712be985c3b879a25a35a876b381"
+    },
+    {
+      "path": "server/table-versions.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "327884224f8808a6febd497e13f64671e18d3da4c40f6cdfe48b2af6bad97e11"
+    },
+    {
+      "path": "server/teamevent.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "142468d0878be029d22308ca4124172a0c1fcfe27a032afb64a2b74b7e0cb2a4"
+    },
+    {
+      "path": "server/teamrelay.json",
+      "origin": "experimental-server-1.17",
+      "sha256": "42d67ffc931921e43014d0cc265f9a42e6b185ca290b287c4faf17a1cfd56cc9"
+    },
+    {
+      "path": "server/tests/test_card_skills.py",
+      "origin": "experimental-server-tests",
+      "sha256": "c94f96e9e63d5f4fcaf3529574251d7b91e4617afcc0e678bf05e636e1b27b9f"
+    },
+    {
+      "path": "server/tests/test_language_routes.py",
+      "origin": "experimental-server-tests",
+      "sha256": "97da7c213178836ecb5df7e1c3840205c3e0387a9e27986914560933790fbf00"
+    },
+    {
+      "path": "server/tests_integration/test_migration_117.py",
+      "origin": "experimental-server-tests",
+      "sha256": "794509e9370113c145f334227e3a3bbdcaf16ae275cd14006e00e22d3c3122d3"
+    },
+    {
+      "path": "server/tests/test_progression.py",
+      "origin": "experimental-server-tests",
+      "sha256": "fecd16588b4eac524a42cc52327de9f435256e28b2b5062e2039095be29ea40c"
+    },
+    {
+      "path": "server/packs-claude/security.json",
+      "origin": "locally-generated-table-keys",
+      "sha256": "41bc1f2d7f4a0c45772425ae372a76c900b72b6ea4fd6d03e7c22443723ce138"
+    },
+    {
+      "path": "migration/1.17.0/tools/hooks-1.17.json",
+      "origin": "experimental-runtime-1.17",
+      "sha256": "063ecffbfc5eb1bacd97b35bf801a77a4e0c13546693f916bad0a711b11120f8"
+    },
+    {
+      "path": "migration/1.17.0/tools/runtime_117.js",
+      "origin": "experimental-runtime-1.17",
+      "sha256": "45ad8ebaf64678e1b74fb052beba7804d26c24aa507fd326cbe990b7d65904b7"
+    },
+    {
+      "path": "migration/1.17.0/tools/run_experimental.py",
+      "origin": "experimental-runtime-1.17",
+      "sha256": "4bc86a412f6caaacdc9da550b430578e83dad603b56318fa2488437e802887a2"
+    },
+    {
+      "path": "launcher/src/keybindings.test.ts",
+      "origin": "working-launcher-1.11",
+      "sha256": "103a8afb8cb9754372579e5c910dc37cfc9935b898ef4249aff479c02a281f5f"
+    },
+    {
+      "path": "launcher/src/keybindings.ts",
+      "origin": "working-launcher-1.11",
+      "sha256": "4e4040a3452d09e612de7dea3e299ac9bdca7769d2938e06558140fb088cacb1"
+    },
+    {
+      "path": "launcher/src/main.ts",
+      "origin": "working-launcher-1.11",
+      "sha256": "baf902fe8f1fe8f5b273480d8f6931572995ab29c2f455fe2f5896ffe5516cf9"
+    },
+    {
+      "path": "launcher/src/media.test.ts",
+      "origin": "working-launcher-1.11",
+      "sha256": "73576b501bba2e93a123e718fe6e14571e2301dfae95b8eecd746912e85609ab"
+    },
+    {
+      "path": "launcher/src/media.ts",
+      "origin": "working-launcher-1.11",
+      "sha256": "b77c22193fdbfe1ac5d25ae50c5cbc748cbed9d87b3ea577b428665b6c3b2294"
+    },
+    {
+      "path": "launcher/src/session.test.ts",
+      "origin": "working-launcher-1.11",
+      "sha256": "413f32db8e11d86a749c90d33f4f36f03ec43b7d8dbcbe26293f9b8fa12c464e"
+    },
+    {
+      "path": "launcher/src/session.ts",
+      "origin": "working-launcher-1.11",
+      "sha256": "8b41a0aa4f6c2d0679fa2d1c88db0bcb861400d9694db11004d2f30014a1fe93"
+    },
+    {
+      "path": "launcher/src/settings.ts",
+      "origin": "working-launcher-1.11",
+      "sha256": "ce04560cf2bf7a6120a3ec1f4c643ae6dc845fb8845bb96779626fbc0d8ddd1c"
+    },
+    {
+      "path": "launcher/src/style.css",
+      "origin": "working-launcher-1.11",
+      "sha256": "52020f84d1f34a3cd95e44b6fb72f5a0ea09f98eaf252407653661e868fb6a63"
+    },
+    {
+      "path": "launcher/src-tauri/src/core.rs",
+      "origin": "working-launcher-1.11",
+      "sha256": "4a2310b3713a283a2c8efa16f33aedcf995d36fbdff20dc6cea9343e984d8aea"
+    },
+    {
+      "path": "launcher/src-tauri/src/directory.rs",
+      "origin": "working-launcher-1.11",
+      "sha256": "9a6b14a76f0e0c61583014a28ed6ee0821f17413168ae51ba3e0acce4af08f28"
+    },
+    {
+      "path": "launcher/src-tauri/src/keybindings.rs",
+      "origin": "working-launcher-1.11",
+      "sha256": "45068a9efe78b37de094250e7137091571e1ad76eaca5e6be98475a28d889ff4"
+    },
+    {
+      "path": "launcher/src-tauri/src/main.rs",
+      "origin": "working-launcher-1.11",
+      "sha256": "7987c012fa27a9385084a51dac6e82beee385ecaf43b7a415b1b6f23afb4262f"
+    },
+    {
+      "path": "launcher/src-tauri/src/process.rs",
+      "origin": "working-launcher-1.11",
+      "sha256": "780ce45cd8df706cea5f1dedb34b40dce3da13e1e402fdb65e03d4d807d7dc8a"
+    },
+    {
+      "path": "launcher/src-tauri/src/runtime.rs",
+      "origin": "working-launcher-1.11",
+      "sha256": "f29f24e35c279ae7b8fffdda4aa3badd0b680b17d31ad7f702080487d757d5f6"
+    },
+    {
+      "path": "launcher/package.json",
+      "origin": "working-launcher-1.11",
+      "sha256": "a56eb27abf3fad19f2ee0688061304d361f0e4b530d7d81feac423e0fa47f748"
+    },
+    {
+      "path": "launcher/package-lock.json",
+      "origin": "working-launcher-1.11",
+      "sha256": "369f08ab9fb6d0790641c0ee95397c7cbb171aedb2c128ab4b116de74c5f2f59"
+    },
+    {
+      "path": "launcher/index.html",
+      "origin": "working-launcher-1.11",
+      "sha256": "aeae7df4378631e86127f266ebfa8283a0035c39bc32847b7d5c37f47766671a"
+    },
+    {
+      "path": "launcher/tsconfig.json",
+      "origin": "working-launcher-1.11",
+      "sha256": "2eebdd828786ff8c2c28edb40b3de572c57f4d15f2b7f08f55798c042c04c9e5"
+    },
+    {
+      "path": "launcher/vite.config.ts",
+      "origin": "working-launcher-1.11",
+      "sha256": "56b30a2c5c41e07e60679af5ef5193219a342cb0583b4e9b717a0b752f7c349c"
+    },
+    {
+      "path": "launcher/src-tauri/Cargo.toml",
+      "origin": "working-launcher-1.11",
+      "sha256": "d2f96221f8aacf8f04e0a086dd24306cc8e7ed9b4526cd085da95811242ce5c2"
+    },
+    {
+      "path": "launcher/src-tauri/Cargo.lock",
+      "origin": "working-launcher-1.11",
+      "sha256": "7a2da91284ee5ee1c9980c3bbd1e1f44e9db9528c719b6be385dfb909ca54ffb"
+    },
+    {
+      "path": "launcher/src-tauri/tauri.conf.json",
+      "origin": "working-launcher-1.11",
+      "sha256": "1305b6a50d88c14516bc380308f8e7bb2a15b900f4e1d3340d176afbaa78ba77"
+    },
+    {
+      "path": "launcher/src-tauri/build.rs",
+      "origin": "working-launcher-1.11",
+      "sha256": "6aeeab41bc35efde4e3c2b644a6248f7fc06d24ae30b75c0d33491cbb0c1fa31"
+    },
+    {
+      "path": "work/kofas/claude/keybindings_catalog.json",
+      "origin": "working-launcher-keybinding-catalog",
+      "sha256": "0143e2a151258ab2165deaf8666768c1862b5c442e778fb0b271ce8d268fc28e"
+    },
+    {
+      "path": "work/kofas/claude/keybindings_catalog.json",
+      "origin": "working-launcher-keybinding-catalog",
+      "sha256": "0143e2a151258ab2165deaf8666768c1862b5c442e778fb0b271ce8d268fc28e"
+    }
+  ]
+}
