@@ -53,6 +53,28 @@ class CardSkillFixture:
 
 
 class CardSkillTest(CardSkillFixture, unittest.TestCase):
+    def test_awaken_and_change_buff_preserve_original_stats_and_passives(self):
+        self.card.update(BattleCardIndex=60491, SkillIndex=0, SkillLevel=10,
+                         awaken=0, awakeBuffIndex=0, awakeBuffLevel=0,
+                         Stat='1000:100:40:0:0',
+                         PassiveIndex1=910002, PassiveLevel1=10,
+                         PassiveIndex2=910031, PassiveLevel2=10)
+        self.material['BattleCardIndex'] = 60592
+        fields = ('Exp', 'Grade', 'Stat', 'SkillLevel', 'PassiveIndex1', 'PassiveIndex2',
+                  'PassiveLevel1', 'PassiveLevel2')
+        before = {field: self.card[field] for field in fields}
+        result = api.card_awaken(self.player, {'BaseCard': {'battleCardNo': 1},
+                                              'MaterialCardList': [{'battleCardNo': 2, 'qty': 1}]})
+        self.assertEqual(result.get('ResultCode', 0), 0)
+        self.assertEqual(self.card['awaken'], 1)
+        self.assertEqual({field: self.card[field] for field in fields}, before)
+        for change in (0, 1):
+            self.player['CardAwakenOffers']['1'] = 9321
+            api.card_awaken_skill(self.player, {'BaseCard': {'battleCardNo': 1}, 'changeSkill': change})
+            stored = api.load()['BattleCardList'][0]
+            self.assertEqual({field: stored[field] for field in fields}, before)
+        self.assertEqual(self.card['awakeBuffIndex'], 9321)
+
     def test_option_card_skill_updates_passive_levels_in_reply_and_on_disk(self):
         self.card.update(BattleCardIndex=60491, SkillIndex=0, SkillLevel=1,
                          awaken=0, awakeBuffIndex=0, awakeBuffLevel=0,

@@ -6,6 +6,7 @@ Estas regras valem para todo o repositório. Instruções diretas do usuário t�
 
 - A opção A está pausada a pedido do usuário. O trabalho atual é corrigir o Skill Up das Battle Cards na instalação funcional `KOF ALLSTAR Local` (1.11.2).
 - Esse pedido autoriza excepcionalmente corrigir os fontes do servidor dessa instalação, com backup verificado de cada arquivo alterado e do save antes da instalação da correção. Não alterar o cliente, tabelas ou mods e não misturar dados com a 1.17.
+- Exceção adicional explicitamente solicitada: balancear todos os status de Awaken pela proporção direta do nível 1 ao 6. É autorizado gerar efeitos exclusivos nas tabelas locais reconstruídas da 1.11, preservando efeitos/status normais, e atualizar descrições, hashes e versões de download, com backup verificado. Não alegar valores oficiais nem alterar cliente/mods/saves para isso. Seguir `docs/superpowers/plans/2026-11-02-awaken-linear.md`.
 - Desenvolver e testar com perfis temporários ou cópias. Não editar o save ativo em paralelo com o jogo; a recuperação de níveis inconsistentes deve ocorrer pelo serviço corrigido na leitura normal do perfil, sem nova cobrança.
 - Não encerrar nem reiniciar a sessão aberta do usuário. A instalação do fonte exige que o usuário feche e reabra o jogo/launcher para carregar o serviço corrigido. Não executar testes dirigindo a interface.
 
