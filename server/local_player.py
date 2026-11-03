@@ -12,6 +12,7 @@ from pathlib import Path
 import local_poll
 import local_progression
 import local_card_progression
+import local_account_preset
 
 # KOFAS_PLAYER=<file>: run on another profile (in-game item tests on a fixture account) without moving the real player.json
 PATH = Path(os.environ['KOFAS_PLAYER']).resolve() if os.environ.get('KOFAS_PLAYER') else Path(__file__).resolve().parent / 'player.json'
@@ -27,11 +28,16 @@ def now_ms():
 def load():
     with LOCK:
         if PATH.exists():
-            return json.loads(PATH.read_text(encoding='utf-8'))
-    return None
+            player = json.loads(PATH.read_text(encoding='utf-8'))
+        else:
+            return None
+    if local_account_preset.apply(player):
+        save(player)
+    return player
 
 
 def save(player):
+    local_account_preset.apply(player)
     with LOCK:
         tmp = PATH.with_suffix('.tmp')
         tmp.write_text(json.dumps(player, indent=1, ensure_ascii=False), encoding='utf-8')
