@@ -5,7 +5,7 @@ import json
 from local_awaken_balance import _unpack, _update_pack, _rows, _parts, _field, _edit
 
 FILES = ('packs-claude/table.dat', 'packs-claude/table.kof', 'table-versions.json')
-BACKGROUND = 'Prefabs/UI_Data/UI_Texture/BackgroundStage/Texture_Lobby_SS_Terry'
+BACKGROUND = 'Prefabs/UI_Data/UI_Texture/BackgroundStage/Texture_Lobby_KOFXV'
 
 
 def build_patch(root, usn=1000001):
