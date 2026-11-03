@@ -53,6 +53,55 @@ class CardSkillFixture:
 
 
 class CardSkillTest(CardSkillFixture, unittest.TestCase):
+    def test_option_card_skill_updates_passive_levels_in_reply_and_on_disk(self):
+        self.card.update(BattleCardIndex=60491, SkillIndex=0, SkillLevel=1,
+                         awaken=0, awakeBuffIndex=0, awakeBuffLevel=0,
+                         PassiveIndex1=910002, PassiveLevel1=1,
+                         PassiveIndex2=910031, PassiveLevel2=1,
+                         PassiveIndex3=0, PassiveLevel3=0)
+        result = self.upgrade(quantity=2, gold=40)
+        self.assertEqual(result['battleCard']['skillLevel'], 3)
+        self.assertEqual(result['battleCard']['passiveLevel1'], 3)
+        self.assertEqual(result['battleCard']['passiveLevel2'], 3)
+        self.assertEqual(result['battleCard']['passiveLevel3'], 0)
+        stored = api.load()['BattleCardList'][0]
+        self.assertEqual((stored['PassiveLevel1'], stored['PassiveLevel2']), (3, 3))
+        self.assertEqual(self.material['Qty'], 18)
+        self.assertEqual(self.player['AccountMoney']['Gold'], 99960)
+
+    def test_max_normal_skill_does_not_consume_materials_or_gold(self):
+        self.card.update(awaken=0, awakeBuffIndex=0, awakeBuffLevel=0)
+        self.reject_without_changes({'BaseCard': {'battleCardNo': 1},
+                                     'MaterialCardList': [{'battleCardNo': 2, 'qty': 10}],
+                                     'UsedGold': 200})
+
+    def test_profile_repairs_previously_paid_passive_levels_once_without_charging(self):
+        self.card.update(BattleCardIndex=60491, SkillIndex=0, SkillLevel=10,
+                         awaken=0, awakeBuffIndex=0, awakeBuffLevel=0,
+                         PassiveIndex1=910002, PassiveLevel1=1,
+                         PassiveIndex2=910031, PassiveLevel2=1,
+                         PassiveIndex3=0, PassiveLevel3=0)
+        definitions = [dict(BattleCardIndex=60491, SkillIndex=0, Grade=6,
+                            Passive=[[910002, 1], [910031, 1]]),
+                       dict(BattleCardIndex=60639, SkillIndex=0, Grade=1)]
+        definition_path = Path(self.temp.name) / 'cards.json'
+        definition_path.write_text(json.dumps(definitions))
+        self.player.update(CardsVersion='stable:2', CardsGranted=[60491, 60639])
+        for slot in (1, 2, 3):
+            self.material.update({'PassiveIndex%d' % slot: 0, 'PassiveLevel%d' % slot: 0})
+        money, material = copy.deepcopy(self.player['AccountMoney']), copy.deepcopy(self.material)
+        with patch.object(api, 'CARDS_PATH', definition_path), patch.object(api, 'auto_equip_cards', return_value=False):
+            api.battle_cards(self.player)
+            stored = api.load()
+            self.assertEqual((stored['BattleCardList'][0]['PassiveLevel1'],
+                              stored['BattleCardList'][0]['PassiveLevel2']), (10, 10))
+            self.assertEqual(stored['AccountMoney'], money)
+            self.assertEqual(stored['BattleCardList'][1], material)
+            self.assertEqual(stored['Unrelated'], self.player['Unrelated'])
+            with patch.object(api, 'save') as save_again:
+                api.battle_cards(self.player)
+                save_again.assert_not_called()
+
     def test_awaken_skill_one_to_two_persists_without_changing_normal_skill(self):
         before = copy.deepcopy(self.card)
         response = self.upgrade()
@@ -272,6 +321,21 @@ class CardSkillHTTPTest(CardSkillFixture, unittest.TestCase):
         self.assertNotEqual(result['ResultCode'], 0)
         self.assertEqual(result['levelUpSuccess'], 0)
         self.assertEqual(api.load(), before)
+
+    def test_encrypted_option_card_upgrade_returns_levels_used_by_client(self):
+        self.card.update(BattleCardIndex=60491, SkillIndex=0, SkillLevel=1,
+                         awaken=0, awakeBuffIndex=0, awakeBuffLevel=0,
+                         PassiveIndex1=910002, PassiveLevel1=1,
+                         PassiveIndex2=910031, PassiveLevel2=1)
+        api.save(self.player)
+        result = self.post('cardSkillUp', {
+            'BaseCard': {'battleCardNo': 1, 'battleCardIndex': 60491, 'qty': 0, 'count': 0},
+            'MaterialCardList': [{'battleCardNo': 2, 'qty': 2, 'count': 0}],
+            'UsedGold': 40}, encrypted=True)
+        self.assertEqual(result['levelUpSuccess'], 1)
+        self.assertEqual((result['battleCard']['passiveLevel1'],
+                          result['battleCard']['passiveLevel2']), (3, 3))
+        self.assertEqual(api.load()['BattleCardList'][0]['PassiveLevel1'], 3)
 
 
 if __name__ == '__main__':

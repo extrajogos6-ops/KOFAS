@@ -2,6 +2,13 @@
 
 Estas regras valem para todo o repositório. Instruções diretas do usuário têm prioridade.
 
+## Trabalho ativo autorizado pelo usuário
+
+- A opção A está pausada a pedido do usuário. O trabalho atual é corrigir o Skill Up das Battle Cards na instalação funcional `KOF ALLSTAR Local` (1.11.2).
+- Esse pedido autoriza excepcionalmente corrigir os fontes do servidor dessa instalação, com backup verificado de cada arquivo alterado e do save antes da instalação da correção. Não alterar o cliente, tabelas ou mods e não misturar dados com a 1.17.
+- Desenvolver e testar com perfis temporários ou cópias. Não editar o save ativo em paralelo com o jogo; a recuperação de níveis inconsistentes deve ocorrer pelo serviço corrigido na leitura normal do perfil, sem nova cobrança.
+- Não encerrar nem reiniciar a sessão aberta do usuário. A instalação do fonte exige que o usuário feche e reabra o jogo/launcher para carregar o serviço corrigido. Não executar testes dirigindo a interface.
+
 ## Escopo vigente: opção A — recuperar a 1.17.0 original
 
 - O usuário escolheu explicitamente reparar a versão mais recente, preservando personagens, conteúdo e mecânicas de aprimoramento da própria 1.17.0.

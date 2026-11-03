@@ -305,6 +305,8 @@ def battle_cards(player):
         if c.get('Grade', 1) < d.get('Grade', 1):
             c['Grade'] = d['Grade']
             added = True
+        if sync_card_passive_levels(c):
+            added = True
     if auto_equip_cards(player, defs):
         added = True
     if added:
@@ -314,6 +316,24 @@ def battle_cards(player):
 
 def card_defs():
     return {d['BattleCardIndex']: d for d in (json.loads(CARDS_PATH.read_text()) if CARDS_PATH.exists() else [])}
+
+
+def sync_card_passive_levels(row):
+    """Option/set cards display their passive level, not the saved SkillLevel.
+
+    Reconcile levels already earned with the old handler; never charge again or
+    touch active skills, absent passive slots, or awakening buff levels.
+    """
+    if row.get('SkillIndex', 0):
+        return False
+    level = min(10, max(1, int(row.get('SkillLevel', 1))))
+    changed = False
+    for slot in (1, 2, 3):
+        field = 'PassiveLevel%d' % slot
+        if row.get('PassiveIndex%d' % slot) and int(row.get(field, 0)) < level:
+            row[field] = level
+            changed = True
+    return changed
 
 
 def consume_cards(player, used):
@@ -634,6 +654,9 @@ def card_route(path, player, payload):
         save(player)
         return {'ResultCode': 0, 'LevelUpSuccess': 0, 'SkillUpSuccess': 1, 'levelUpSuccess': 1,
                 'AccountMoney': money, 'accountMoney': money, 'BattleCard': row, 'battleCard': lc_card(row)}
+    if path.endswith('cardSkillUp') and int(row.get('SkillLevel', 1)) >= 10:
+        return {'ResultCode': 1, 'ResultMessage': 'already max normal skill', 'levelUpSuccess': 0,
+                'AccountMoney': money, 'accountMoney': money, 'BattleCard': row, 'battleCard': lc_card(row)}
     mats = [m for m in mats if int(m.get('BattleCardNo') or m.get('battleCardNo') or 0) != no]
     if row is not None and path.endswith('cardGradeUp'):
         # evolve: cards go to 6 stars (make_data cardEndGrade 6, growth rows 1-6) and need max level (Evolve "Max Level");
@@ -666,6 +689,7 @@ def card_route(path, player, payload):
         return {'AccountMoney': money}
     if path.endswith('cardSkillUp'):
         row['SkillLevel'] = min(10, row.get('SkillLevel', 1) + max(1, count))
+        sync_card_passive_levels(row)
         save(player)
         return {'LevelUpSuccess': 0, 'SkillUpSuccess': 1, 'AccountMoney': money, 'BattleCard': row, 'battleCard': lc_card(row),
                 'levelUpSuccess': 1, 'accountMoney': money}
