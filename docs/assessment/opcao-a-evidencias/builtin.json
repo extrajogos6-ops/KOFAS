@@ -1,0 +1,90 @@
+{
+  "source": "C:\\Users\\Administrator\\Desktop\\Projeto Codex\\kofg2\\kofg\\KOF ALLSTAR_Data\\StreamingAssets\\assetbundles\\resourcesassets_builtintable",
+  "sha256": "c7e26d6b1b52257077115b030442f4ebb01c99c0dad27c88156d1f6ea68e9455",
+  "types": {
+    "TextAsset": 16,
+    "AssetBundle": 1
+  },
+  "textassets": [
+    {
+      "name": "AllowedCharacters_Kor",
+      "bytes": 4826,
+      "sha256": "0146b44dc1542e06e80dfb1f0c4bf58e89551f51f4fde585602ad0a0a99bf3c1"
+    },
+    {
+      "name": "BuildSystemTable_ko",
+      "bytes": 23824,
+      "sha256": "d8b6f593073ef37bd6743c5802456946b67407e000e489d2e61435a90f640a83"
+    },
+    {
+      "name": "BuildSystemTable_es",
+      "bytes": 23115,
+      "sha256": "06a4d369febd824b2616fc0a675c56321ed4e86998ccb67bfc3d170022c62ebf"
+    },
+    {
+      "name": "ProhibitedCharacters",
+      "bytes": 252,
+      "sha256": "93ff38298129fb9293d8cfe5cab56cca4bf2b8fcd5c9faecdf04aa1e2f778a5b"
+    },
+    {
+      "name": "BuildSystemTable_zh_tw",
+      "bytes": 20053,
+      "sha256": "21da31fd018e0d4578d8823a65688cb7461f42aec3878c713b4086c0b8597c14"
+    },
+    {
+      "name": "BuildSystemTable_it",
+      "bytes": 22685,
+      "sha256": "498dfa74697f338dea644989bca414a3c1790480a8e2161ea55f4ba93f0596ae"
+    },
+    {
+      "name": "BuildSystemTable_id",
+      "bytes": 21356,
+      "sha256": "b4e1687383329f1e79930e82589833ed30ab811f23e57c2b8f1b7dcc8232d759"
+    },
+    {
+      "name": "BuildSystemTable_Jpn",
+      "bytes": 24803,
+      "sha256": "5b283ab4805e620cd968a198082eb70cc0abbbe1e8c21745d0af126fd1c7459f"
+    },
+    {
+      "name": "BuildSystemTable_ru",
+      "bytes": 30271,
+      "sha256": "124d5c300ee5fb86f3a4626ee3d58c52a72a51a649e548671299fab8e122c02f"
+    },
+    {
+      "name": "BuildSystemTable_de",
+      "bytes": 22843,
+      "sha256": "782351e342710457faeb63f20dc0256699c91863da217787f95a4e3822e4f6e5"
+    },
+    {
+      "name": "BuildSystemTable_Kor",
+      "bytes": 23824,
+      "sha256": "d8b6f593073ef37bd6743c5802456946b67407e000e489d2e61435a90f640a83"
+    },
+    {
+      "name": "BuildSystemTable_pt",
+      "bytes": 21822,
+      "sha256": "13aa998e51f62a93b7f7570ac5e2168ac49873c655e2cee0fc89ba6350f2f847"
+    },
+    {
+      "name": "BuildSystemTable_en",
+      "bytes": 21221,
+      "sha256": "33613b8303237070a5af82f8fd234978147964d6626f5465c9368ae7b1fa1c23"
+    },
+    {
+      "name": "BuildSystemTable_fr",
+      "bytes": 23823,
+      "sha256": "5b4b6c3ad56910ef3e50c05e6b4a59cd8779c41f18e2f065c706d36a9f664ff5"
+    },
+    {
+      "name": "AllowedCharacters",
+      "bytes": 20572,
+      "sha256": "14817e8b0183b26a0dce315b273bfba6aa1c1ae2392ecf2d87136da31eba7df4"
+    },
+    {
+      "name": "BuildSystemTable_th",
+      "bytes": 36495,
+      "sha256": "69c03f230bfa48a120be3805e4ba2e6651d5141805ca64ed9853711b0982fd93"
+    }
+  ]
+}

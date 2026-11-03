@@ -1,0 +1,32 @@
+[
+  {
+    "pack": "prohibited",
+    "version": 1,
+    "entries": 2,
+    "missing": 0,
+    "size_match": 2,
+    "hash_fields": 0
+  },
+  {
+    "pack": "table",
+    "version": 10613,
+    "entries": 430,
+    "missing": 0,
+    "size_match": 430,
+    "hash_fields": 0
+  },
+  {
+    "pack": "lang_global",
+    "version": 10270,
+    "entries": 168,
+    "missing": 0,
+    "size_match": 168,
+    "hash_fields": 0
+  },
+  {
+    "pack": "banner_en",
+    "version": 24062702,
+    "entries": 717,
+    "validation": "not assessed in table-only validation"
+  }
+]

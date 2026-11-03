@@ -1,0 +1,48 @@
+{
+  "files_read": 16,
+  "textassets": [
+    {
+      "file": "KOF ALLSTAR_Data\\resources.assets",
+      "name": "AssetBundleServerURL",
+      "bytes": 27,
+      "security_name_hit": false
+    },
+    {
+      "file": "KOF ALLSTAR_Data\\resources.assets",
+      "name": "BillingMode",
+      "bytes": 29,
+      "security_name_hit": false
+    },
+    {
+      "file": "KOF ALLSTAR_Data\\resources.assets",
+      "name": "soundlist",
+      "bytes": 301332,
+      "security_name_hit": false
+    },
+    {
+      "file": "KOF ALLSTAR_Data\\StreamingAssets\\assetbundles\\resourcesassets_ui",
+      "name": "title2003_Front.skel",
+      "bytes": 300287,
+      "security_name_hit": false
+    },
+    {
+      "file": "KOF ALLSTAR_Data\\StreamingAssets\\assetbundles\\resourcesassets_ui",
+      "name": "title2003_Back.atlas",
+      "bytes": 2355,
+      "security_name_hit": false
+    },
+    {
+      "file": "KOF ALLSTAR_Data\\StreamingAssets\\assetbundles\\resourcesassets_ui",
+      "name": "title2003_Front.atlas",
+      "bytes": 8576,
+      "security_name_hit": false
+    },
+    {
+      "file": "KOF ALLSTAR_Data\\StreamingAssets\\assetbundles\\resourcesassets_ui",
+      "name": "title2003_Back.skel",
+      "bytes": 150241,
+      "security_name_hit": false
+    }
+  ],
+  "errors": []
+}

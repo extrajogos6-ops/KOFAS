@@ -1,0 +1,15 @@
+{
+  "files_scanned": 8227,
+  "bytes_scanned": 2667536330,
+  "max_file_bytes": 2097152,
+  "excluded_extensions": [
+    ".png",
+    ".dll",
+    ".exe"
+  ],
+  "matches": [],
+  "files_400_bytes_classification": {
+    "other": 82
+  },
+  "limitation": "literal ASCII names only; not exhaustive of binary or encrypted responses"
+}

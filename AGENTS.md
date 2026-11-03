@@ -2,13 +2,15 @@
 
 Estas regras valem para todo o repositório. Instruções diretas do usuário têm prioridade.
 
-## Escopo vigente: análise antes de implementação
+## Escopo vigente: opção A — recuperar a 1.17.0 original
 
-- O pedido atual é mapear as diferenças entre as bases originais 1.11.2 e 1.17.0 e produzir um relatório de esforço/viabilidade para dois caminhos distintos: reparar a 1.17 ou portar funções específicas para a 1.11.
-- Não implementar a migração, combinar tabelas/dados de versões diferentes, copiar saves entre versões, portar mods ou continuar ajustando o experimento híbrido como se isso fosse a atualização pedida.
-- A cópia híbrida criada anteriormente é um experimento suspenso. Seu login ou lobby não comprova suporte ao conteúdo da 1.17.
-- Usar referências identificadas, hashes e evidências separadas. Distinguir comparação original-original, adaptações locais e experimento híbrido. Separar fatos, inferências e lacunas.
-- Depois do relatório, aguardar a escolha explícita do usuário sobre qual caminho e quais funções executar. Novos experimentos só pertencem à fase escolhida, com objetivo, dados de origem e critério de sucesso documentados previamente.
+- O usuário escolheu explicitamente reparar a versão mais recente, preservando personagens, conteúdo e mecânicas de aprimoramento da própria 1.17.0.
+- Não combinar arquivos, tabelas, saves ou mods da 1.11.2 com a nova versão. Não usar o experimento híbrido como ponto de partida, fallback ou prova de sucesso.
+- A instalação funcional 1.11.2, seu backup e o experimento híbrido suspenso são referências separadas. A execução futura da opção A deve nascer de uma cópia limpa da base original 1.17.0, com perfil novo e procedência verificável.
+- É autorizado analisar e implementar as adaptações necessárias dentro desse escopo, respeitando Graphify, backup, isolamento e testes sem controle do PC. Ferramentas genéricas de análise não são dados de uma versão do jogo.
+- Primeiro recuperar e validar as tabelas originais 1.17.0; depois catalogar o conteúdo e implementar o serviço local conforme o protocolo novo. Não substituir dados indisponíveis por tabelas antigas, valores inventados ou respostas vazias e chamar isso de atualização concluída.
+- Acesso a todos os personagens e aprimoramentos exige identificação nos dados originais, implementação e validação de persistência/regras. Lobby aberto isoladamente não satisfaz o pedido.
+- Registrar fatos, inferências, lacunas e critérios de sucesso em `docs/superpowers/plans/2026-11-02-opcao-a-117.md` e `docs/assessment/OPCAO-A-117-PROGRESSO.md`.
 
 ## Regra principal: testes sem controlar o PC
 

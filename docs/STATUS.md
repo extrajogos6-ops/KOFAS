@@ -4,7 +4,7 @@
 
 O experimento abaixo fica suspenso. Ele combinou cliente/assets 1.17.0 com tabelas reconstruídas antigas e uma cópia de perfil 1.11.2. Isso não corresponde à atualização completa solicitada e não será usado como prova de viabilidade do conteúdo novo.
 
-O trabalho atual é uma análise estática das bases originais, com relatório comparando reparar a 1.17 e portar funções da nova para a 1.11. Não executar o roteiro de jogo abaixo nem continuar adaptações até o usuário escolher uma direção após a análise. A discussão anterior sobre testes manuais e correções de inicialização não amplia esse escopo.
+O usuário escolheu a opção A: recuperar a 1.17.0 original, com seus próprios dados e perfil novo, sem arquivos de versões anteriores. O roteiro híbrido abaixo continua suspenso. Plano vigente: [opção A](superpowers/plans/2026-11-02-opcao-a-117.md). Evidências e bloqueios: [progresso da recuperação](assessment/OPCAO-A-117-PROGRESSO.md).
 
 Relatório vigente: [comparação 1.11.2 × 1.17.0](assessment/COMPARATIVO-1.11-1.17.md). A seção de preservação distingue o backup congelado do estado mutável atual da instalação em uso.
 

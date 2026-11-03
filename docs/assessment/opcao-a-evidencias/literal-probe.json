@@ -1,0 +1,7 @@
+{
+  "key_candidates": 937,
+  "iv_candidates": 473,
+  "sample_file": "accountlevelingtable.bin",
+  "compressed_header_matches": 0,
+  "scope": "printable 16/24/32-byte literals and hex literals from original 1.17 only; negative is not exhaustive"
+}
